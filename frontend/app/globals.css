@@ -1,0 +1,310 @@
+:root {
+  --bg: #f2f6fc;
+  --sidebar: #eef3fb;
+  --surface: #ffffff;
+  --surface-2: #f6f9ff;
+  --text: #13233f;
+  --muted: #5f6f8e;
+  --border: #d6deee;
+  --accent: #0047ab;
+  --accent-2: #3f74cf;
+  --accent-soft: #e8f0ff;
+  --neutral-900: #334155;
+  --danger: #b4233f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: Inter, "Segoe UI", system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.appLayout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+}
+
+.appLayoutCollapsed {
+  grid-template-columns: 76px 1fr;
+}
+
+.sidebar {
+  background: var(--sidebar);
+  border-right: 1px solid var(--border);
+  padding: 16px 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarToggle {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0 0 12px auto;
+}
+
+.sidebar.collapsed .brandSub {
+  display: none;
+}
+
+.sidebar.collapsed .brand {
+  font-size: 11px;
+  line-height: 1.25;
+}
+
+.sidebar.collapsed .navLink {
+  padding: 10px 8px;
+  font-size: 0;
+}
+
+.sidebar.collapsed .navLink::first-letter {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.brandSub {
+  color: var(--muted);
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+.navLink {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: #324565;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.navLink.active {
+  background: #d8e3f9;
+  color: #0f2f66;
+  font-weight: 600;
+}
+
+.container {
+  width: min(1200px, 94%);
+  margin: 0 auto;
+}
+
+.mainArea {
+  padding: 18px 0 24px;
+}
+
+.topHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.title {
+  margin: 0;
+  font-size: 34px;
+  letter-spacing: -0.5px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.workspaceGrid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: minmax(260px, 330px) minmax(500px, 1fr);
+}
+
+.uploadPanel {
+  padding: 16px;
+  background: linear-gradient(180deg, #ffffff, #fbfdff);
+}
+
+.uploadPanel h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.uploadHint {
+  margin: 0 0 14px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.uploadForm {
+  display: grid;
+  gap: 10px;
+}
+
+.uploadForm input[type="file"] {
+  border: 1px dashed #b6c6e4;
+  background: #f7faff;
+  padding: 10px;
+}
+
+.roadmapCard {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #dce7fb;
+  background: linear-gradient(180deg, #f8fbff, #f1f6ff);
+}
+
+.repositoryCardHeader {
+  padding: 14px;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, #ffffff, #fbfdff);
+}
+
+.fileRow {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) 170px 180px;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-top: 1px solid var(--border);
+}
+
+.fileRow:not(.fileHeader):hover {
+  background: #f8fbff;
+}
+
+.fileHeader {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+
+input,
+button {
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  background: #fff;
+  color: var(--text);
+}
+
+button {
+  cursor: pointer;
+  background: #f4f7ff;
+  color: #27406c;
+  transition: 120ms ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(34, 67, 122, 0.12);
+}
+
+.btnPrimary {
+  border-color: #0a3b87;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #fff;
+  font-weight: 600;
+}
+
+.btnDanger {
+  border-color: #e1b3bf;
+  background: #fff2f5;
+  color: var(--danger);
+}
+
+.btnGhost {
+  background: #ffffff;
+  border-color: #cfdbf2;
+  color: #27406c;
+}
+
+.modalBackdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(18, 30, 53, 0.4);
+  display: grid;
+  place-items: center;
+  z-index: 100;
+  padding: 16px;
+}
+
+.modalCard {
+  width: min(620px, 96vw);
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 28px 50px rgba(16, 34, 66, 0.2);
+}
+
+.dropZone {
+  border: 2px dashed #9db3dc;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #f9fbff, #f2f6ff);
+  min-height: 190px;
+  padding: 14px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.dropZone.active {
+  border-color: var(--accent);
+  background: linear-gradient(180deg, #edf4ff, #e6f0ff);
+}
+
+@media (max-width: 1024px) {
+  .appLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .appLayoutCollapsed {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .workspaceGrid,
+  .workspaceGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .fileRow {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+}
