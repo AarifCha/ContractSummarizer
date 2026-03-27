@@ -72,8 +72,8 @@ export default function LibraryClient() {
   return (
     <div className="appLayout">
       <aside className="sidebar">
-        <div className="brand">Legal Operations</div>
-        <div className="brandSub">Premier Tier</div>
+        <div className="brand">ClauseIQ</div>
+        <div className="brandSub">Understand every clause instantly</div>
         <nav>
           <Link className="navLink active" href="/library">All Contracts</Link>
           <a className="navLink" href="#">Archive</a>

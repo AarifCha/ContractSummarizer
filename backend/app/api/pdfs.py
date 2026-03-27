@@ -55,12 +55,29 @@ def list_pdfs(user=Depends(current_user)):
         ).fetchall()
 
     files = []
+    stale_ids = []
     for row in rows:
         row_dict = dict(row)
         if not is_supported_storage_path(row_dict["stored_name"], user):
+            stale_ids.append(row_dict["id"])
             continue
+
+        file_path = os.path.join(UPLOAD_DIR, row_dict["stored_name"])
+        if not os.path.exists(file_path):
+            stale_ids.append(row_dict["id"])
+            continue
+
         row_dict.pop("stored_name", None)
         files.append(row_dict)
+
+    if stale_ids:
+        placeholders = ",".join("?" for _ in stale_ids)
+        with get_db() as conn:
+            conn.execute(
+                f"DELETE FROM pdfs WHERE user_id = ? AND id IN ({placeholders})",
+                (user["id"], *stale_ids),
+            )
+            conn.commit()
 
     return {"files": files}
 

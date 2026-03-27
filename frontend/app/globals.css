@@ -37,42 +37,12 @@ a {
   grid-template-columns: 240px 1fr;
 }
 
-.appLayoutCollapsed {
-  grid-template-columns: 76px 1fr;
-}
-
 .sidebar {
   background: var(--sidebar);
   border-right: 1px solid var(--border);
   padding: 16px 14px;
   display: flex;
   flex-direction: column;
-}
-
-.sidebarToggle {
-  width: 32px;
-  height: 32px;
-  padding: 0;
-  margin: 0 0 12px auto;
-}
-
-.sidebar.collapsed .brandSub {
-  display: none;
-}
-
-.sidebar.collapsed .brand {
-  font-size: 11px;
-  line-height: 1.25;
-}
-
-.sidebar.collapsed .navLink {
-  padding: 10px 8px;
-  font-size: 0;
-}
-
-.sidebar.collapsed .navLink::first-letter {
-  font-size: 14px;
-  font-weight: 700;
 }
 
 .brand {
@@ -287,10 +257,6 @@ button:hover {
 
 @media (max-width: 1024px) {
   .appLayout {
-    grid-template-columns: 1fr;
-  }
-
-  .appLayoutCollapsed {
     grid-template-columns: 1fr;
   }
 

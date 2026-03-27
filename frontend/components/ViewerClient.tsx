@@ -1,28 +1,19 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import { pdfViewUrl } from "@/lib/api";
 import { getToken } from "@/lib/session";
 
 export default function ViewerClient({ id }: { id: number }) {
   const token = useMemo(() => getToken(), []);
   const src = useMemo(() => pdfViewUrl(id, token), [id, token]);
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
 
   return (
-    <div className={`appLayout${sidebarCollapsed ? " appLayoutCollapsed" : ""}`}>
-      <aside className={`sidebar${sidebarCollapsed ? " collapsed" : ""}`}>
-        <button
-          type="button"
-          className="btnGhost sidebarToggle"
-          onClick={() => setSidebarCollapsed((prev) => !prev)}
-          aria-label={sidebarCollapsed ? "Expand panel" : "Collapse panel"}
-        >
-          {sidebarCollapsed ? ">" : "<"}
-        </button>
-        <div className="brand">Legal Operations</div>
-        <div className="brandSub">Workspace</div>
+    <div className="appLayout">
+      <aside className="sidebar">
+        <div className="brand">ClauseIQ</div>
+        <div className="brandSub">Understand every clause instantly</div>
         <nav>
           <a className="navLink active" href="#">AI Summary</a>
           <a className="navLink" href="#">QA Chat</a>

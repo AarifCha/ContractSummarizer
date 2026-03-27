@@ -42,8 +42,8 @@ export default function ApiKeyClient() {
   return (
     <div className="appLayout">
       <aside className="sidebar">
-        <div className="brand">Legal Operations</div>
-        <div className="brandSub">Settings</div>
+        <div className="brand">ClauseIQ</div>
+        <div className="brandSub">Understand every clause instantly</div>
         <nav>
           <Link className="navLink" href="/library">All Contracts</Link>
           <a className="navLink" href="#">Archive</a>
