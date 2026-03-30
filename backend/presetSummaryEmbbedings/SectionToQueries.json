@@ -1,0 +1,73 @@
+{
+  "Parties & Project Metadata": {
+    "max_pages": 3,
+    "queries": [
+      "This section identifies the core project metadata, including the project name, project number, and physical location.",
+      "This text defines the primary parties involved in the agreement, specifically naming the owner, general contractor, construction manager, and the subcontractor.",
+      "This page contains the formal agreement date, the prime contract date, and execution signatures."
+    ]
+  },
+  "Contract Value, Retainage, Warranty": {
+    "max_pages": 3,
+    "queries": [
+      "This section establishes the financial terms, defining the total contract sum, the lump sum subcontract price, and the schedule of values.",
+      "This defines the percentage of retainage held from progress payments, such as a ten percent retainage or ninety percent payment terms.",
+      "This text outlines the post-completion warranty period, specifically noting the standard one year warranty and correction period obligations."
+    ]
+  },
+  "Scope & Exclusions": {
+    "max_pages": 8,
+    "queries": [
+      "This section details the specific scope of work, outlining exactly what materials and labor the subcontractor shall furnish and install.",
+      "This text explicitly lists the inclusions and exclusions to the scope, clarifying what is not included or what is contractor or owner furnished.",
+      "This references the plans, specifications, and exhibit scope documents that dictate the technical requirements of the work."
+    ]
+  },
+  "Schedule & Delay": {
+    "max_pages": 6,
+    "queries": [
+      "This section establishes the project schedule, including the estimated start date, milestones, sequencing, and date of substantial completion.",
+      "This text covers delay terms, including time is of the essence clauses, procedures for extension of time, and acceleration of work.",
+      "This defines the financial penalties for schedule failures, including no damages for delay limitations and liquidated damages provisions."
+    ]
+  },
+  "Payment & Financial Risk": {
+    "max_pages": 7,
+    "queries": [
+      "This section outlines payment contingencies, including pay-if-paid, pay-when-paid, and condition precedent to payment clauses where the subcontractor assumes the risk of owner nonpayment.",
+      "This details the invoicing process, including the application for payment, billing deadlines, and the requirement to be paid within a specific number of days after the contractor receives payment.",
+      "This covers financial protections and deductions, including the submission of conditional and unconditional lien waivers, the contractor's right to withholding payment, offset, backcharges, and payment for off-site stored materials."
+    ]
+  },
+  "Indemnity & Insurance": {
+    "max_pages": 6,
+    "queries": [
+      "This is the indemnification clause requiring the subcontractor to indemnify, defend, and hold harmless the contractor and owner from claims, including broad form indemnity and action over employee injury claims.",
+      "This outlines liability limitations regarding sole negligence, partial negligence, and compliance with anti-indemnity acts such as Texas Insurance Code Chapter 151.",
+      "This specifies the insurance requirements and policy limits, including commercial general liability, automobile liability, umbrella and excess liability, workers compensation, employers liability, and the requirement to name additional insureds."
+    ]
+  },
+  "Flow-Down & Incorporated Documents": {
+    "max_pages": 4,
+    "queries": [
+      "This section states which documents are incorporated by reference into the agreement, including the prime contract, general conditions, and specific contract documents.",
+      "This contains the flow-down provisions stating that the subcontractor assumes all obligations and responsibilities toward the contractor that the contractor assumes toward the owner.",
+      "This text lists the attached exhibits and attachments that form the complete subcontract agreement."
+    ]
+  },
+  "Termination, Default & Disputes": {
+    "max_pages": 5,
+    "queries": [
+      "This section explains the contractor's rights regarding termination for cause and termination for convenience.",
+      "This details the procedures for subcontractor default, including the required notice of default and the applicable cure period.",
+      "This outlines the required dispute resolution processes, including mediation, binding arbitration, litigation, the designated venue, and the governing law."
+    ]
+  },
+  "Compliance & Special Conditions": {
+    "max_pages": 4,
+    "queries": [
+      "This section covers federal and state labor compliance requirements, including Davis-Bacon act provisions, certified payroll submission, and prevailing wage mandates for HUD projects.",
+      "This outlines specific operational requirements including jobsite safety requirements, OSHA compliance, and mandatory reporting requirements."
+    ]
+  }
+}

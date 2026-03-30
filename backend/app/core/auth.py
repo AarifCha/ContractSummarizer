@@ -1,24 +1,45 @@
 import secrets
+import base64
+import hashlib
 from datetime import datetime, timezone
 from typing import Optional
 
-from passlib.context import CryptContext
+import bcrypt
 
 from app.core.db import get_db
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+PASSWORD_HASH_PREFIX = "v2$"
 
 
 def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
+def _prehash_password(password: str) -> bytes:
+    # Normalize to a fixed-size input so bcrypt never sees >72 bytes.
+    digest = hashlib.sha256(password.encode("utf-8")).digest()
+    return base64.b64encode(digest)
+
+
 def hash_password(password: str) -> str:
-    return pwd_context.hash(password)
+    hashed = bcrypt.hashpw(_prehash_password(password), bcrypt.gensalt())
+    return f"{PASSWORD_HASH_PREFIX}{hashed.decode('utf-8')}"
 
 
 def verify_password(password: str, password_hash: str) -> bool:
-    return pwd_context.verify(password, password_hash)
+    if password_hash.startswith(PASSWORD_HASH_PREFIX):
+        encoded = password_hash[len(PASSWORD_HASH_PREFIX) :].encode("utf-8")
+        return bcrypt.checkpw(_prehash_password(password), encoded)
+
+    if password_hash.startswith("$2"):
+        password_bytes = password.encode("utf-8")
+        try:
+            return bcrypt.checkpw(password_bytes, password_hash.encode("utf-8"))
+        except ValueError:
+            # Support legacy behavior where bcrypt silently truncated long inputs.
+            return bcrypt.checkpw(password_bytes[:72], password_hash.encode("utf-8"))
+
+    return False
 
 
 def create_session(user_id: int) -> str:

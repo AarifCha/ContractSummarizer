@@ -1,5 +1,6 @@
 "use client";
 
+import BrandLogo from "@/components/BrandLogo";
 import Link from "next/link";
 import { useMemo } from "react";
 import { pdfViewUrl } from "@/lib/api";
@@ -12,7 +13,7 @@ export default function ViewerClient({ id }: { id: number }) {
   return (
     <div className="appLayout">
       <aside className="sidebar">
-        <div className="brand">ClauseIQ</div>
+        <BrandLogo />
         <div className="brandSub">Understand every clause instantly</div>
         <nav>
           <a className="navLink active" href="#">AI Summary</a>
@@ -36,7 +37,7 @@ export default function ViewerClient({ id }: { id: number }) {
             </Link>
           </div>
 
-          <div className="workspaceGrid" style={{ gridTemplateColumns: "minmax(300px, 460px) minmax(540px, 1fr)" }}>
+          <div className="workspaceGrid workspaceGrid--viewer">
             <aside className="card" style={{ padding: 14 }}>
               <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
                 <button type="button" className="btnPrimary" style={{ fontSize: 12, padding: "7px 10px" }}>AI Summary</button>

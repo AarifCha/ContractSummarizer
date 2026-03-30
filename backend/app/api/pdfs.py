@@ -4,12 +4,12 @@ import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 
-from fastapi import APIRouter, Depends, File, Header, HTTPException, Query, UploadFile, status
+from fastapi import APIRouter, BackgroundTasks, Depends, File, Header, HTTPException, Query, UploadFile, status
 from fastapi.responses import FileResponse
-
 from app.core.auth import get_user_from_token
 from app.core.db import get_db
 from app.core.deps import current_user
+from app.core.pdf_processing import run_first_pass_for_pdf
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 UPLOAD_DIR = os.path.join(BASE_DIR, "uploads")
@@ -46,7 +46,17 @@ def list_pdfs(user=Depends(current_user)):
     with get_db() as conn:
         rows = conn.execute(
             """
-            SELECT id, original_name, size_bytes, created_at, stored_name
+            SELECT
+              id,
+              original_name,
+              size_bytes,
+              created_at,
+              stored_name,
+              processing_stage,
+              processing_total_chunks,
+              processing_completed_chunks,
+              processing_status,
+              processing_error
             FROM pdfs
             WHERE user_id = ?
             ORDER BY created_at DESC
@@ -83,7 +93,7 @@ def list_pdfs(user=Depends(current_user)):
 
 
 @router.post("")
-async def upload_pdf(file: UploadFile = File(...), user=Depends(current_user)):
+async def upload_pdf(background_tasks: BackgroundTasks, file: UploadFile = File(...), user=Depends(current_user)):
     if not file.filename or not file.filename.lower().endswith(".pdf"):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Only PDF files are allowed")
 
@@ -109,18 +119,46 @@ async def upload_pdf(file: UploadFile = File(...), user=Depends(current_user)):
     content = await file.read()
     with open(target_path, "wb") as f:
         f.write(content)
-
     created_at = now_iso()
     with get_db() as conn:
         cursor = conn.execute(
             """
-            INSERT INTO pdfs (user_id, original_name, stored_name, size_bytes, created_at)
-            VALUES (?, ?, ?, ?, ?)
+            INSERT INTO pdfs (
+              user_id,
+              original_name,
+              stored_name,
+              size_bytes,
+              created_at,
+              processing_stage,
+              processing_total_chunks,
+              processing_completed_chunks,
+              processing_status,
+              processing_error
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
-            (user["id"], original_name, stored_name, len(content), created_at),
+            (
+                user["id"],
+                original_name,
+                stored_name,
+                len(content),
+                created_at,
+                "first_pass_extraction",
+                1,
+                0,
+                "queued",
+                None,
+            ),
         )
         conn.commit()
         file_id = cursor.lastrowid
+
+    background_tasks.add_task(
+        run_first_pass_for_pdf,
+        pdf_id=file_id,
+        user_id=user["id"],
+        source_pdf_path=target_path,
+    )
 
     return {
         "file": {
@@ -129,6 +167,44 @@ async def upload_pdf(file: UploadFile = File(...), user=Depends(current_user)):
             "size_bytes": len(content),
             "created_at": created_at,
         }
+    }
+
+
+@router.get("/{pdf_id}/processing-status")
+def processing_status(pdf_id: int, user=Depends(current_user)):
+    with get_db() as conn:
+        row = conn.execute(
+            """
+            SELECT
+              processing_stage,
+              processing_total_chunks,
+              processing_completed_chunks,
+              processing_status,
+              processing_error
+            FROM pdfs
+            WHERE id = ? AND user_id = ?
+            """,
+            (pdf_id, user["id"]),
+        ).fetchone()
+
+    if not row:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="File not found")
+
+    total_chunks = int(row["processing_total_chunks"] or 0)
+    completed_chunks = int(row["processing_completed_chunks"] or 0)
+    progress_percent = 0
+    if total_chunks > 0:
+        progress_percent = int((completed_chunks / total_chunks) * 100)
+        if progress_percent > 100:
+            progress_percent = 100
+
+    return {
+        "stage": row["processing_stage"],
+        "status": row["processing_status"],
+        "total_chunks": total_chunks,
+        "completed_chunks": completed_chunks,
+        "progress_percent": progress_percent,
+        "error": row["processing_error"],
     }
 
 
