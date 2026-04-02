@@ -1,0 +1,551 @@
+{
+  "generated_at": "2026-03-30T20:38:32.598158+00:00",
+  "mode": "combine_suspect_pages",
+  "stem": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop",
+  "pages_combined": [
+    {
+      "page": 5,
+      "min_chunk_index": 16,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_016_combined.json",
+      "total_chunks_merged": 19,
+      "avg_words": 2.1579
+    },
+    {
+      "page": 16,
+      "min_chunk_index": 63,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_063_combined.json",
+      "total_chunks_merged": 74,
+      "avg_words": 3.7973
+    },
+    {
+      "page": 17,
+      "min_chunk_index": 137,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_137_combined.json",
+      "total_chunks_merged": 43,
+      "avg_words": 1.4651
+    },
+    {
+      "page": 26,
+      "min_chunk_index": 219,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_219_combined.json",
+      "total_chunks_merged": 60,
+      "avg_words": 5.3667
+    },
+    {
+      "page": 30,
+      "min_chunk_index": 296,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_296_combined.json",
+      "total_chunks_merged": 2,
+      "avg_words": 2.0
+    },
+    {
+      "page": 31,
+      "min_chunk_index": 298,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_298_combined.json",
+      "total_chunks_merged": 179,
+      "avg_words": 2.0503
+    },
+    {
+      "page": 32,
+      "min_chunk_index": 477,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_477_combined.json",
+      "total_chunks_merged": 185,
+      "avg_words": 2.0432
+    },
+    {
+      "page": 33,
+      "min_chunk_index": 662,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_662_combined.json",
+      "total_chunks_merged": 218,
+      "avg_words": 1.8716
+    },
+    {
+      "page": 34,
+      "min_chunk_index": 880,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_880_combined.json",
+      "total_chunks_merged": 209,
+      "avg_words": 1.866
+    },
+    {
+      "page": 35,
+      "min_chunk_index": 1089,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_1089_combined.json",
+      "total_chunks_merged": 229,
+      "avg_words": 1.6987
+    },
+    {
+      "page": 36,
+      "min_chunk_index": 1318,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_1318_combined.json",
+      "total_chunks_merged": 228,
+      "avg_words": 1.6535
+    },
+    {
+      "page": 37,
+      "min_chunk_index": 1546,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_1546_combined.json",
+      "total_chunks_merged": 238,
+      "avg_words": 1.5756
+    },
+    {
+      "page": 38,
+      "min_chunk_index": 1784,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_1784_combined.json",
+      "total_chunks_merged": 239,
+      "avg_words": 1.59
+    },
+    {
+      "page": 39,
+      "min_chunk_index": 2023,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_2023_combined.json",
+      "total_chunks_merged": 237,
+      "avg_words": 1.616
+    },
+    {
+      "page": 40,
+      "min_chunk_index": 2260,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_2260_combined.json",
+      "total_chunks_merged": 235,
+      "avg_words": 1.6128
+    },
+    {
+      "page": 41,
+      "min_chunk_index": 2495,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_2495_combined.json",
+      "total_chunks_merged": 238,
+      "avg_words": 1.5588
+    },
+    {
+      "page": 42,
+      "min_chunk_index": 2733,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_2733_combined.json",
+      "total_chunks_merged": 238,
+      "avg_words": 1.6723
+    },
+    {
+      "page": 43,
+      "min_chunk_index": 2971,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_2971_combined.json",
+      "total_chunks_merged": 231,
+      "avg_words": 1.7489
+    },
+    {
+      "page": 44,
+      "min_chunk_index": 3202,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_3202_combined.json",
+      "total_chunks_merged": 192,
+      "avg_words": 1.6562
+    },
+    {
+      "page": 45,
+      "min_chunk_index": 3394,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_3394_combined.json",
+      "total_chunks_merged": 241,
+      "avg_words": 1.6722
+    },
+    {
+      "page": 46,
+      "min_chunk_index": 3635,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_3635_combined.json",
+      "total_chunks_merged": 249,
+      "avg_words": 1.6104
+    },
+    {
+      "page": 47,
+      "min_chunk_index": 3884,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_3884_combined.json",
+      "total_chunks_merged": 247,
+      "avg_words": 1.6073
+    },
+    {
+      "page": 48,
+      "min_chunk_index": 4131,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_4131_combined.json",
+      "total_chunks_merged": 249,
+      "avg_words": 1.5944
+    },
+    {
+      "page": 49,
+      "min_chunk_index": 4380,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_4380_combined.json",
+      "total_chunks_merged": 241,
+      "avg_words": 1.6017
+    },
+    {
+      "page": 50,
+      "min_chunk_index": 4621,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_4621_combined.json",
+      "total_chunks_merged": 227,
+      "avg_words": 1.7093
+    },
+    {
+      "page": 51,
+      "min_chunk_index": 4848,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_4848_combined.json",
+      "total_chunks_merged": 215,
+      "avg_words": 1.6605
+    },
+    {
+      "page": 52,
+      "min_chunk_index": 5063,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_5063_combined.json",
+      "total_chunks_merged": 249,
+      "avg_words": 1.6265
+    },
+    {
+      "page": 53,
+      "min_chunk_index": 5312,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_5312_combined.json",
+      "total_chunks_merged": 249,
+      "avg_words": 1.6185
+    },
+    {
+      "page": 54,
+      "min_chunk_index": 5561,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_5561_combined.json",
+      "total_chunks_merged": 241,
+      "avg_words": 1.6307
+    },
+    {
+      "page": 55,
+      "min_chunk_index": 5802,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_5802_combined.json",
+      "total_chunks_merged": 241,
+      "avg_words": 1.6017
+    },
+    {
+      "page": 56,
+      "min_chunk_index": 6043,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_6043_combined.json",
+      "total_chunks_merged": 249,
+      "avg_words": 1.6185
+    },
+    {
+      "page": 57,
+      "min_chunk_index": 6292,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_6292_combined.json",
+      "total_chunks_merged": 212,
+      "avg_words": 1.7123
+    },
+    {
+      "page": 58,
+      "min_chunk_index": 6504,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_6504_combined.json",
+      "total_chunks_merged": 234,
+      "avg_words": 1.6795
+    },
+    {
+      "page": 59,
+      "min_chunk_index": 6738,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_6738_combined.json",
+      "total_chunks_merged": 249,
+      "avg_words": 1.5944
+    },
+    {
+      "page": 60,
+      "min_chunk_index": 6987,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_6987_combined.json",
+      "total_chunks_merged": 249,
+      "avg_words": 1.6345
+    },
+    {
+      "page": 61,
+      "min_chunk_index": 7236,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_7236_combined.json",
+      "total_chunks_merged": 249,
+      "avg_words": 1.6506
+    },
+    {
+      "page": 62,
+      "min_chunk_index": 7485,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_7485_combined.json",
+      "total_chunks_merged": 249,
+      "avg_words": 1.6185
+    },
+    {
+      "page": 63,
+      "min_chunk_index": 7734,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_7734_combined.json",
+      "total_chunks_merged": 241,
+      "avg_words": 1.6017
+    },
+    {
+      "page": 64,
+      "min_chunk_index": 7975,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_7975_combined.json",
+      "total_chunks_merged": 208,
+      "avg_words": 1.6923
+    },
+    {
+      "page": 65,
+      "min_chunk_index": 8183,
+      "output": "Silos_Docusign_-_Golden_Stones_SC_-_Countertop_chunk_8183_combined.json",
+      "total_chunks_merged": 2,
+      "avg_words": 2.0
+    }
+  ],
+  "pages_skipped_single_chunk": [
+    2,
+    3
+  ],
+  "pages_skipped_override": [],
+  "pages_skipped_not_suspect": [
+    {
+      "page": 1,
+      "total_chunks": 11,
+      "avg_words": 55.9091
+    },
+    {
+      "page": 4,
+      "total_chunks": 2,
+      "avg_words": 426.0
+    },
+    {
+      "page": 6,
+      "total_chunks": 3,
+      "avg_words": 313.0
+    },
+    {
+      "page": 7,
+      "total_chunks": 4,
+      "avg_words": 255.0
+    },
+    {
+      "page": 8,
+      "total_chunks": 2,
+      "avg_words": 556.0
+    },
+    {
+      "page": 9,
+      "total_chunks": 3,
+      "avg_words": 361.6667
+    },
+    {
+      "page": 10,
+      "total_chunks": 3,
+      "avg_words": 313.6667
+    },
+    {
+      "page": 11,
+      "total_chunks": 3,
+      "avg_words": 315.6667
+    },
+    {
+      "page": 12,
+      "total_chunks": 3,
+      "avg_words": 384.0
+    },
+    {
+      "page": 13,
+      "total_chunks": 2,
+      "avg_words": 527.5
+    },
+    {
+      "page": 14,
+      "total_chunks": 3,
+      "avg_words": 41.3333
+    },
+    {
+      "page": 15,
+      "total_chunks": 2,
+      "avg_words": 217.5
+    },
+    {
+      "page": 18,
+      "total_chunks": 2,
+      "avg_words": 362.0
+    },
+    {
+      "page": 19,
+      "total_chunks": 4,
+      "avg_words": 165.0
+    },
+    {
+      "page": 20,
+      "total_chunks": 4,
+      "avg_words": 163.5
+    },
+    {
+      "page": 21,
+      "total_chunks": 5,
+      "avg_words": 109.2
+    },
+    {
+      "page": 22,
+      "total_chunks": 3,
+      "avg_words": 220.3333
+    },
+    {
+      "page": 23,
+      "total_chunks": 4,
+      "avg_words": 168.25
+    },
+    {
+      "page": 24,
+      "total_chunks": 3,
+      "avg_words": 76.3333
+    },
+    {
+      "page": 25,
+      "total_chunks": 14,
+      "avg_words": 17.7143
+    },
+    {
+      "page": 27,
+      "total_chunks": 7,
+      "avg_words": 67.1429
+    },
+    {
+      "page": 28,
+      "total_chunks": 6,
+      "avg_words": 95.5
+    },
+    {
+      "page": 29,
+      "total_chunks": 4,
+      "avg_words": 132.25
+    },
+    {
+      "page": 66,
+      "total_chunks": 4,
+      "avg_words": 171.0
+    },
+    {
+      "page": 67,
+      "total_chunks": 6,
+      "avg_words": 117.5
+    },
+    {
+      "page": 68,
+      "total_chunks": 5,
+      "avg_words": 196.2
+    },
+    {
+      "page": 69,
+      "total_chunks": 6,
+      "avg_words": 145.8333
+    },
+    {
+      "page": 70,
+      "total_chunks": 5,
+      "avg_words": 189.2
+    },
+    {
+      "page": 71,
+      "total_chunks": 5,
+      "avg_words": 156.8
+    },
+    {
+      "page": 72,
+      "total_chunks": 6,
+      "avg_words": 152.0
+    },
+    {
+      "page": 73,
+      "total_chunks": 5,
+      "avg_words": 184.6
+    },
+    {
+      "page": 74,
+      "total_chunks": 5,
+      "avg_words": 180.4
+    },
+    {
+      "page": 75,
+      "total_chunks": 6,
+      "avg_words": 131.8333
+    },
+    {
+      "page": 76,
+      "total_chunks": 5,
+      "avg_words": 160.6
+    },
+    {
+      "page": 77,
+      "total_chunks": 5,
+      "avg_words": 176.6
+    },
+    {
+      "page": 78,
+      "total_chunks": 6,
+      "avg_words": 131.3333
+    },
+    {
+      "page": 79,
+      "total_chunks": 6,
+      "avg_words": 126.5
+    },
+    {
+      "page": 80,
+      "total_chunks": 5,
+      "avg_words": 173.4
+    },
+    {
+      "page": 81,
+      "total_chunks": 5,
+      "avg_words": 188.2
+    },
+    {
+      "page": 82,
+      "total_chunks": 4,
+      "avg_words": 216.5
+    },
+    {
+      "page": 83,
+      "total_chunks": 6,
+      "avg_words": 142.5
+    },
+    {
+      "page": 84,
+      "total_chunks": 5,
+      "avg_words": 154.6
+    },
+    {
+      "page": 85,
+      "total_chunks": 4,
+      "avg_words": 213.75
+    },
+    {
+      "page": 86,
+      "total_chunks": 4,
+      "avg_words": 109.75
+    },
+    {
+      "page": 87,
+      "total_chunks": 4,
+      "avg_words": 286.5
+    },
+    {
+      "page": 88,
+      "total_chunks": 5,
+      "avg_words": 258.4
+    },
+    {
+      "page": 89,
+      "total_chunks": 4,
+      "avg_words": 316.25
+    },
+    {
+      "page": 90,
+      "total_chunks": 4,
+      "avg_words": 343.5
+    },
+    {
+      "page": 91,
+      "total_chunks": 4,
+      "avg_words": 319.25
+    },
+    {
+      "page": 92,
+      "total_chunks": 4,
+      "avg_words": 12.5
+    }
+  ],
+  "line_split": {
+    "processed_chunks": 232,
+    "skipped_filter_combined": 40,
+    "skipped_line_bbox_mismatch": 0,
+    "input_chunks": 232,
+    "output_chunks": 511
+  }
+}

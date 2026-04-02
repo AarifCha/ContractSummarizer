@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Motor Vehicles and Equipment"
+  ],
+  "page_numbers": [
+    199
+  ],
+  "text": "2. Employees must not be transported in the back of a pickup truck, on a flatbed truck or on trailers.",
+  "bboxes": [
+    [
+      43.19004000000001,
+      673.5845907007421,
+      498.60108000000014,
+      683.0139600000001
+    ]
+  ],
+  "chunk_index": 370
+}

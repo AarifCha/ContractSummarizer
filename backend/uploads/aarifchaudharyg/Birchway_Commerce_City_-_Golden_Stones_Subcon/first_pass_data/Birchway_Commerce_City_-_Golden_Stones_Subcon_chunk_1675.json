@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "10681 Peoria Parkway, Commerce City, Colorado, 80022"
+  ],
+  "page_numbers": [
+    88
+  ],
+  "text": "Company Name: ________________",
+  "bboxes": [
+    [
+      273.65,
+      125.44399999999996,
+      457.27,
+      135.77599999999995
+    ]
+  ],
+  "chunk_index": 1675
+}

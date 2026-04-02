@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "What's New"
+  ],
+  "page_numbers": [
+    242
+  ],
+  "text": "New line 3b has been added to this form. A flow-through entity is required to complete this line to indicate that it has direct or indirect foreign partners, owners, or beneficiaries when it provides the Form W-9 to another flow-through entity in which it has an ownership interest. This change is intended to provide a flow-through entity with information regarding the status of its indirect foreign partners, owners, or beneficiaries, so that it can satisfy any applicable reporting requirements. For example, a partnership that has any indirect foreign partners may be required to complete Schedules K-2 and K-3. See the Partnership Instructions for Schedules K-2 and K-3 (Form 1065).",
+  "bboxes": [
+    [
+      316.8,
+      93.97101757812504,
+      577.7039999999996,
+      181.96701757812502
+    ]
+  ],
+  "chunk_index": 1001
+}

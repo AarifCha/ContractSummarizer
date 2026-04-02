@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "General Construction, Inc. 1234 Anywhere Lane College Station, TX 77840"
+  ],
+  "page_numbers": [
+    1
+  ],
+  "text": "- (b) The following exhibits are attached herewith and are a part of this agreement:",
+  "bboxes": [
+    [
+      108.0,
+      385.3404843938121,
+      465.05701285464187,
+      394.1178276
+    ]
+  ],
+  "chunk_index": 10
+}

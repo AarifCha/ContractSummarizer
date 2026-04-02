@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "b. Minimum Coverages Required."
+  ],
+  "page_numbers": [
+    100
+  ],
+  "text": "1. $1,000,000 each Occurrence\n2. $2,000,000 aggregate for products-completed operations",
+  "bboxes": [
+    [
+      198.05,
+      501.57399999999996,
+      353.22199999999975,
+      511.90599999999995
+    ],
+    [
+      198.05,
+      481.774,
+      487.92999999999995,
+      492.106
+    ]
+  ],
+  "chunk_index": 1766
+}

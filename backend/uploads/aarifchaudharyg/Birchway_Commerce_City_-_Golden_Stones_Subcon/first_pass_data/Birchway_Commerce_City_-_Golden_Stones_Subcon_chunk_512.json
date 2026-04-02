@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Thunderstorms and Lightning"
+  ],
+  "page_numbers": [
+    206
+  ],
+  "text": "- o Count the time between the lightning and the thunder-for each 5 seconds between, the lightning is 1 mile away. See table below.",
+  "bboxes": [
+    [
+      49.8,
+      274.55948527659575,
+      528.8185199999997,
+      298.77168
+    ]
+  ],
+  "chunk_index": 512
+}

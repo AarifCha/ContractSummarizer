@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "Closing Conference"
+  ],
+  "page_numbers": [
+    213
+  ],
+  "text": "4. o Names of opening conference participants\n5. o Names of inspection party participants listing job functions or title",
+  "bboxes": [
+    [
+      61.19771999999997,
+      551.2221134573948,
+      264.9594,
+      562.0615200000001
+    ],
+    [
+      61.18775999999997,
+      519.8518452765958,
+      293.11930800000016,
+      544.0638000000001
+    ]
+  ],
+  "chunk_index": 579
+}

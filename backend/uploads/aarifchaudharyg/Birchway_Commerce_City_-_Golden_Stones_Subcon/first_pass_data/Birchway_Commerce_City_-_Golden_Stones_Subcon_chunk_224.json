@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "Subcontractor"
+  ],
+  "page_numbers": [
+    189
+  ],
+  "text": "- o Dropped object protection\n- o Scaffolding",
+  "bboxes": [
+    [
+      48.6,
+      190.56497864838389,
+      189.855,
+      200.49167999999997
+    ],
+    [
+      48.6,
+      175.56497864838389,
+      119.40791999999999,
+      185.49167999999997
+    ]
+  ],
+  "chunk_index": 224
+}

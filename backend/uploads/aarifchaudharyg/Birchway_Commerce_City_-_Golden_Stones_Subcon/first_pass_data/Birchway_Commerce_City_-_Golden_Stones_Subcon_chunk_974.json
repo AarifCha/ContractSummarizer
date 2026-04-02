@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Request for Taxpayer Identification Number and Certification"
+  ],
+  "page_numbers": [
+    242
+  ],
+  "text": "- [ ] LLC. Enter the tax classification (C = C corporation, S = S corporation, P = Partnership)",
+  "bboxes": [
+    [
+      86.4,
+      590.348517578125,
+      360.4850000000001,
+      596.4700175781251
+    ]
+  ],
+  "chunk_index": 974
+}

@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "E.5.9) Chemical Labeling"
+  ],
+  "page_numbers": [
+    65
+  ],
+  "text": "6. Pipes do not require labeling.\n7. In storage areas where similar chemical products are stored, signs and/or placards may be posted to identify the material and transmit the required information in lieu of individual container labels.",
+  "bboxes": [
+    [
+      84.624,
+      298.394,
+      251.93,
+      308.726
+    ],
+    [
+      84.624,
+      250.394,
+      542.9360000000003,
+      284.606
+    ]
+  ],
+  "chunk_index": 1362
+}

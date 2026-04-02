@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Such insurance shall be written for not less than the following limits:"
+  ],
+  "page_numbers": [
+    4
+  ],
+  "text": "$ 5,000 Medical Expense",
+  "bboxes": [
+    [
+      251.879997,
+      284.7804716438121,
+      366.9180178807518,
+      293.55781485
+    ]
+  ],
+  "chunk_index": 55
+}

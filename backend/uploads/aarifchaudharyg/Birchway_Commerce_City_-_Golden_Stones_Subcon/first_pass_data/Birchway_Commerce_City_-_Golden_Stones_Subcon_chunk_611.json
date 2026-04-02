@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "Inspection Documentation Requirements"
+  ],
+  "page_numbers": [
+    215
+  ],
+  "text": "- o The date the inspection\n- o Test of all functions and safety devices was performed",
+  "bboxes": [
+    [
+      79.2,
+      526.2522734573947,
+      205.68204,
+      537.09168
+    ],
+    [
+      79.2,
+      508.25227345739467,
+      340.92888000000005,
+      519.09168
+    ]
+  ],
+  "chunk_index": 611
+}

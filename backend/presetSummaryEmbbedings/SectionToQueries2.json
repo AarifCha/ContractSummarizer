@@ -1,0 +1,97 @@
+{
+    "Parties & Project Metadata": {
+      "max_chunks": 50,
+      "queries": [
+        "Project Name, Project Number, and Project Location.",
+        "Owner name, address, and contact information.",
+        "General Contractor or Construction Manager name and address.",
+        "Subcontractor name, Subcontractor address, and contact information.",
+        "Date of Agreement, Effective Date, and Execution Date.",
+        "Signatures, titles, and execution blocks for the parties."
+      ]
+    },
+    "Contract Value, Retainage, Warranty": {
+      "max_chunks": 60,
+      "queries": [
+        "Total Contract Sum, Contract Price, or Subcontract Amount.",
+        "Schedule of Values, Unit Prices, and breakdown of costs.",
+        "Retainage percentage, retained amount, and conditions for release of retainage.",
+        "Warranty period, guarantee duration, and correction of defective work.",
+        "Standard one-year warranty and obligations to repair."
+      ]
+    },
+    "Scope & Exclusions": {
+      "max_chunks": 150,
+      "queries": [
+        "Scope of Work, specific materials to furnish, and labor to install.",
+        "Exclusions from the Subcontractor's scope of work.",
+        "Items furnished by Owner or Contractor (Provided by Others).",
+        "Specific tasks, duties, and responsibilities of the Subcontractor.",
+        "Reference to architectural plans, specifications, drawings, and Exhibit scope documents.",
+        "Alternates, allowances, and approved substitutions."
+      ]
+    },
+    "Schedule & Delay": {
+      "max_chunks": 100,
+      "queries": [
+        "Project schedule, commencement date, and estimated start date.",
+        "Milestones, sequencing, phasing, and Substantial Completion date.",
+        "Time is of the essence clause.",
+        "Procedures for claiming an extension of time or excusable delay.",
+        "No damages for delay limitations.",
+        "Liquidated damages, financial penalties for delay, and acceleration of work."
+      ]
+    },
+    "Payment & Financial Risk": {
+      "max_chunks": 120,
+      "queries": [
+        "Pay-if-paid, pay-when-paid, and condition precedent to payment clauses.",
+        "Application for Payment, invoicing procedures, and billing deadlines.",
+        "Payment terms, net days for payment after receipt of funds.",
+        "Conditional and unconditional lien waivers and release of claims.",
+        "Contractor's right to withhold payment, backcharges, and offset rights.",
+        "Payment requirements for materials stored off-site."
+      ]
+    },
+    "Indemnity & Insurance": {
+      "max_chunks": 100,
+      "queries": [
+        "Subcontractor obligation to indemnify, defend, and hold harmless the Contractor and Owner.",
+        "Broad form indemnity and action over employee injury claims.",
+        "Limitations on liability, sole negligence, and anti-indemnity acts.",
+        "Commercial General Liability (CGL) insurance requirements and policy limits.",
+        "Workers Compensation and Employers Liability insurance limits.",
+        "Umbrella liability, excess liability, and automobile insurance limits.",
+        "Requirement to name Contractor and Owner as Additional Insureds."
+      ]
+    },
+    "Flow-Down & Incorporated Documents": {
+      "max_chunks": 60,
+      "queries": [
+        "Documents incorporated by reference, including the Prime Contract and General Conditions.",
+        "Flow-down provisions, assumption of Owner obligations by Subcontractor.",
+        "List of attached exhibits, schedules, and addenda.",
+        "Order of precedence among contract documents."
+      ]
+    },
+    "Termination, Default & Disputes": {
+      "max_chunks": 80,
+      "queries": [
+        "Contractor's right to Termination for Convenience.",
+        "Termination for Cause and Subcontractor default.",
+        "Notice of default, written notice, and the required cure period.",
+        "Dispute resolution process, mediation, and binding arbitration.",
+        "Litigation, designated venue, jurisdiction, and governing law."
+      ]
+    },
+    "Compliance & Special Conditions": {
+      "max_chunks": 60,
+      "queries": [
+        "Davis-Bacon Act, prevailing wage requirements, and HUD mandates.",
+        "Certified payroll submission and labor compliance reporting.",
+        "Jobsite safety rules, OSHA compliance, and safety manuals.",
+        "Mandatory reporting requirements for accidents or environmental issues.",
+        "E-Verify, equal employment opportunity, and minority business enterprise (MBE) requirements."
+      ]
+    }
+  }

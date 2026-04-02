@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "Cranes"
+  ],
+  "page_numbers": [
+    204
+  ],
+  "text": "- o Earth ground\n- o Crane make, model and configuration (Must include tower sections and their placement)",
+  "bboxes": [
+    [
+      80.28,
+      629.9322734573948,
+      162.48984,
+      640.7716800000001
+    ],
+    [
+      49.08,
+      615.844978648384,
+      463.6872000000001,
+      625.7716800000001
+    ]
+  ],
+  "chunk_index": 461
+}

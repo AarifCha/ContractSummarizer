@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "General Construction, Inc. 1234 Anywhere Lane College Station, TX 77840"
+  ],
+  "page_numbers": [
+    1
+  ],
+  "text": "hereafter called \"Contractor\" on a project for Awesome Owner, LP, hereinafter called 'Owner'.",
+  "bboxes": [
+    [
+      36.0,
+      520.5804896438121,
+      454.1512855023774,
+      529.35783285
+    ]
+  ],
+  "chunk_index": 6
+}

@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "General Construction, Inc. 1234 Anywhere Lane College Station, TX 77840"
+  ],
+  "page_numbers": [
+    1
+  ],
+  "text": "- (a) WORK DESCRIPTION: Supply and install of all flooring materials, including but not limited to: ceramic tile, luxury vinyl tile, carpeting, and resilient base.",
+  "bboxes": [
+    [
+      108.0,
+      419.0604776438122,
+      575.9552257042565,
+      439.35783284999997
+    ]
+  ],
+  "chunk_index": 9
+}

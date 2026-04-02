@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Thunderstorms and Lightning"
+  ],
+  "page_numbers": [
+    206
+  ],
+  "text": "5 seconds after a flash, The lightning is = 1 mile away. 10 seconds after a flash, The lightning is = 2 miles away. 15 seconds after a flash, The lightning is = 3 miles away. 20 seconds after a flash, The lightning is = 4 miles way. 25 seconds after a flash, The lightning is = 5 miles away",
+  "bboxes": [
+    [
+      176.48533630371094,
+      78.48321533203125,
+      434.8731689453125,
+      243.47662353515625
+    ]
+  ],
+  "chunk_index": 515
+}

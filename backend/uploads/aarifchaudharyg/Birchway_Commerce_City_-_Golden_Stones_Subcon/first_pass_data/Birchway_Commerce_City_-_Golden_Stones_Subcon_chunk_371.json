@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Motor Vehicles and Equipment"
+  ],
+  "page_numbers": [
+    199
+  ],
+  "text": "3. Employees are not permitted to ride on any equipment that is intended for one person.",
+  "bboxes": [
+    [
+      43.19004000000007,
+      655.5868707007421,
+      454.4384400000001,
+      665.0162400000002
+    ]
+  ],
+  "chunk_index": 371
+}

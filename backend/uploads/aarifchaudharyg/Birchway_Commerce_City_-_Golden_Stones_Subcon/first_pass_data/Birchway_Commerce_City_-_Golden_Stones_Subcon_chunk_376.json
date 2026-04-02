@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Motor Vehicles and Equipment"
+  ],
+  "page_numbers": [
+    199
+  ],
+  "text": "8. Operators must not exit the seat in their equipment if the load is hoisted or the motor is running.",
+  "bboxes": [
+    [
+      43.17012000000017,
+      535.5987507007422,
+      494.9756400000002,
+      545.0281200000003
+    ]
+  ],
+  "chunk_index": 376
+}

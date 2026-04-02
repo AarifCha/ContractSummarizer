@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "SUBCONTRACTOR/SUPPLIER'S SUB-SUBCONTRACTOR/SUB-SUPPLIER LISTING"
+  ],
+  "page_numbers": [
+    25
+  ],
+  "text": "Subscribed and sworn before me this _____ day of_______________ , 20___ .",
+  "bboxes": [
+    [
+      50.400000000000006,
+      116.39980424999999,
+      366.09210749999977,
+      125.39957924999999
+    ]
+  ],
+  "chunk_index": 319
+}

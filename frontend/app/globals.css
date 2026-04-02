@@ -125,6 +125,185 @@ a {
   border-bottom: 1px solid var(--border);
 }
 
+.topTabs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.topTab {
+  border: 1px solid #cfdcf4;
+  background: #ffffff;
+  color: #27406c;
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.topTab.topTab--active {
+  border-color: #0a3b87;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #fff;
+}
+
+.summaryTabRoot {
+  display: grid;
+  gap: 10px;
+}
+
+.summaryEmptyState {
+  padding: 14px;
+}
+
+.summarySplitPane {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 12px;
+  align-items: stretch;
+}
+
+.summaryMarkdownPane {
+  height: calc(100vh - 240px);
+  overflow: auto;
+  padding: 12px;
+  background: #fff;
+  scrollbar-width: thin;
+  scrollbar-color: #c8d6f2 transparent;
+}
+
+.summaryMarkdownPane::-webkit-scrollbar {
+  width: 8px;
+}
+
+.summaryMarkdownPane::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.summaryMarkdownPane::-webkit-scrollbar-thumb {
+  background: #c8d6f2;
+  border-radius: 999px;
+}
+
+.summaryPdfPane {
+  height: calc(100vh - 240px);
+  padding: 0;
+  overflow: hidden;
+}
+
+.summaryPdfPlaceholder {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  background: #e5e7eb;
+  color: #334155;
+  font-weight: 600;
+  border-radius: 14px;
+}
+
+.summarySection {
+  margin-bottom: 12px;
+}
+
+.summaryStickySentinel {
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.summaryStickyH2 {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 10;
+  margin: 0 0 8px;
+  padding: 6px 0;
+  box-shadow: 0 1px 0 rgba(15, 23, 42, 0.08);
+  font-size: 18px;
+}
+
+/* Only while stuck (see StickySummaryH2). Masks stray lines above; no mask in normal flow = prior paragraph stays fully readable. */
+.summaryStickyH2.summaryStickyH2--pinned::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -1.15em;
+  height: 1.15em;
+  background: #fff;
+  pointer-events: none;
+}
+
+.summaryParagraph {
+  margin: 0 0 8px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.summaryBulletList {
+  margin: 0 0 8px;
+  padding-left: 22px;
+}
+
+.summaryBulletList li {
+  margin-bottom: 6px;
+}
+
+.citationBadge {
+  background: #dbeafe;
+  color: #1e40af;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 999px;
+  cursor: pointer;
+  margin-left: 4px;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 120ms ease;
+}
+
+.citationBadge:hover {
+  background: #bfdbfe;
+}
+
+.citationBadge.citationBadge--active {
+  background: #93c5fd;
+}
+
+.keyOverviewGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.keyOverviewItem {
+  background: #f8fbff;
+  border: 1px solid #dbe7f8;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.keyOverviewLabel {
+  display: block;
+  color: #334155;
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.keyOverviewValue {
+  display: block;
+  color: #64748b;
+  font-size: 13px;
+}
+
 .topHeaderActions {
   display: flex;
   align-items: center;
@@ -618,6 +797,15 @@ button:hover {
   .workspaceGrid,
   .workspaceGrid.workspaceGrid--viewer {
     grid-template-columns: 1fr;
+  }
+
+  .summarySplitPane {
+    grid-template-columns: 1fr;
+  }
+
+  .summaryMarkdownPane,
+  .summaryPdfPane {
+    height: 50vh;
   }
 
   .repositoryPanel {

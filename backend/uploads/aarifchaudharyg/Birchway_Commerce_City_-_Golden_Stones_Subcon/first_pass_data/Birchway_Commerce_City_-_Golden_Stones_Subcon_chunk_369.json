@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Motor Vehicles and Equipment"
+  ],
+  "page_numbers": [
+    199
+  ],
+  "text": "1. If seat belts are provided, they must be worn.",
+  "bboxes": [
+    [
+      43.2,
+      691.582310700742,
+      266.40360000000004,
+      701.0116800000001
+    ]
+  ],
+  "chunk_index": 369
+}

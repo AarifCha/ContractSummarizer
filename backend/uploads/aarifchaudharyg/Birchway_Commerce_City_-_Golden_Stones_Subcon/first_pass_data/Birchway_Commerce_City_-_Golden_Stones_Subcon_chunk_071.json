@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "PAYMENTS"
+  ],
+  "page_numbers": [
+    8
+  ],
+  "text": "- (d) Subtract retainage; and\n- (e) Subtract amounts, if any, withheld or nullified, in whole or in part, in a certificate of payment for a cause that is the fault of Subcontractor or that is otherwise due by Subcontractor to Contractor or Owner.",
+  "bboxes": [
+    [
+      118.80000000000001,
+      242.48839687500003,
+      258.2628059999999,
+      248.08439249999992
+    ],
+    [
+      118.80000000000001,
+      192.93664687500006,
+      539.9939160000001,
+      223.30889249999996
+    ]
+  ],
+  "chunk_index": 71
+}

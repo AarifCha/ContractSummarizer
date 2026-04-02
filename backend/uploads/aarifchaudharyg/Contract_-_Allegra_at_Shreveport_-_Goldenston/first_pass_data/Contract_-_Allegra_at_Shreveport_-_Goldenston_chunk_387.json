@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Please indicate which of the following is true for the worker listed above."
+  ],
+  "page_numbers": [
+    38
+  ],
+  "text": "- [ ] ☐ Worker's residence is within the service area or neighborhood of the project .",
+  "bboxes": [
+    [
+      108.02,
+      361.79839999999996,
+      473.02888,
+      374.63684
+    ]
+  ],
+  "chunk_index": 387
+}

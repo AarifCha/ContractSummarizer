@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Section 1."
+  ],
+  "page_numbers": [
+    1
+  ],
+  "text": "750 Bering Dr, Suite 400 Houston, Texas 77057 (713) 432-7727",
+  "bboxes": [
+    [
+      167.98575,
+      295.4703585000001,
+      281.209125,
+      329.1299085
+    ]
+  ],
+  "chunk_index": 8
+}

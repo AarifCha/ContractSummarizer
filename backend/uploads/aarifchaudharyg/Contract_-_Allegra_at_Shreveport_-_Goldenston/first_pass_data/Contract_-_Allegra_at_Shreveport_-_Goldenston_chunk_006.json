@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Section 1."
+  ],
+  "page_numbers": [
+    1
+  ],
+  "text": "CONTRACTOR: ADDRESS:",
+  "bboxes": [
+    [
+      50.400000000000006,
+      319.2303585,
+      127.37450099999998,
+      341.00990850000005
+    ]
+  ],
+  "chunk_index": 6
+}

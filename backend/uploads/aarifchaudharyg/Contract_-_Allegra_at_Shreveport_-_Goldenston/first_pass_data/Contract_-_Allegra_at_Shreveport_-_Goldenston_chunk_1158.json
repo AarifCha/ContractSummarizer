@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "Procore Pay"
+  ],
+  "page_numbers": [
+    139
+  ],
+  "text": "5. Bank Account Information:\n- a. Ensure that the bank account information within Procore Pay is kept current to facilitate payments.",
+  "bboxes": [
+    [
+      72.00720000000001,
+      453.60797702970234,
+      218.83920000000003,
+      462.8361599999994
+    ],
+    [
+      107.99760000000005,
+      426.73661702970236,
+      538.7894400000002,
+      449.4004799999994
+    ]
+  ],
+  "chunk_index": 1158
+}

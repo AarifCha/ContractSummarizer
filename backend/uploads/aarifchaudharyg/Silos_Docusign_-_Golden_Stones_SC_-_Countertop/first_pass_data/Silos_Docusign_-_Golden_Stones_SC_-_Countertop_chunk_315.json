@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "SUBCONTRACTOR/SUPPLIER'S SUB-SUBCONTRACTOR/SUB-SUPPLIER LISTING"
+  ],
+  "page_numbers": [
+    25
+  ],
+  "text": "CITY/ST/ZIP",
+  "bboxes": [
+    [
+      315.47700000000003,
+      489.53080425,
+      371.0356109999999,
+      498.53057925
+    ]
+  ],
+  "chunk_index": 315
+}

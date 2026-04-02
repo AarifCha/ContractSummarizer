@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "INSTRUCTIONS FOR INVOICING AND COMPLETION OF THE APPLICATION FOR PAYMENT FORM"
+  ],
+  "page_numbers": [
+    15
+  ],
+  "text": "- b. Invoice Number.\n- c. Date of Invoice.",
+  "bboxes": [
+    [
+      68.4,
+      634.50055425,
+      171.00833475,
+      643.50032925
+    ],
+    [
+      68.4,
+      623.70055425,
+      168.49839749999995,
+      632.70032925
+    ]
+  ],
+  "chunk_index": 167
+}

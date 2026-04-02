@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "H2"
+  ],
+  "page_numbers": [
+    2
+  ],
+  "text": "this is definitely eight words total right here now",
+  "bboxes": [
+    [
+      0,
+      0,
+      2,
+      2
+    ]
+  ],
+  "chunk_index": 3
+}

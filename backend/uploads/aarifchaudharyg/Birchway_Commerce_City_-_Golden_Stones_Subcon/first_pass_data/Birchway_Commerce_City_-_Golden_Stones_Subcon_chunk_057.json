@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "PAYMENTS"
+  ],
+  "page_numbers": [
+    7
+  ],
+  "text": "- (b) The amount requested;\n- (c) The percentage of completion of each portion of the Work;",
+  "bboxes": [
+    [
+      118.80000000000001,
+      391.14364687500006,
+      257.6578334999999,
+      396.73964249999995
+    ],
+    [
+      118.80000000000001,
+      366.36739687500005,
+      427.28112299999975,
+      371.9633925
+    ]
+  ],
+  "chunk_index": 57
+}

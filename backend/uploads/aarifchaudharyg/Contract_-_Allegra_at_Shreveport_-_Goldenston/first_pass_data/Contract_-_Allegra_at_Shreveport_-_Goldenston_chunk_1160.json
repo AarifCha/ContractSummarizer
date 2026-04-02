@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "Procore Pay"
+  ],
+  "page_numbers": [
+    139
+  ],
+  "text": "7. Procore Pay Setup Confirmation:\n- a. Confirm that your organization and the General Contractor are properly connected within Procore Pay for this contract to ensure smooth processing of payments.",
+  "bboxes": [
+    [
+      71.99616000000003,
+      372.9938970297024,
+      244.58116800000005,
+      382.22207999999944
+    ],
+    [
+      107.98656000000005,
+      346.1225370297024,
+      545.7446400000005,
+      368.78639999999945
+    ]
+  ],
+  "chunk_index": 1160
+}

@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Such insurance shall be written for not less than the following limits:"
+  ],
+  "page_numbers": [
+    4
+  ],
+  "text": "$ 1,000,000 each accident",
+  "bboxes": [
+    [
+      251.80246226437947,
+      386.18048064381213,
+      371.6114345066349,
+      394.95782385
+    ]
+  ],
+  "chunk_index": 46
+}

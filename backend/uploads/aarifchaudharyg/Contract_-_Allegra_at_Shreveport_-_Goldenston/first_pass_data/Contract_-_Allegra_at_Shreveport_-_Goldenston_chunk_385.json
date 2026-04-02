@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Please indicate which of the following is true for the worker listed above."
+  ],
+  "page_numbers": [
+    38
+  ],
+  "text": "- [ ] ☐ Worker's income from your employment is below the income limit based on a calculation of what the worker's wage rate would translate to if annualized on a full-time basis",
+  "bboxes": [
+    [
+      108.02,
+      412.93839999999994,
+      537.00688,
+      437.53684000000004
+    ]
+  ],
+  "chunk_index": 385
+}

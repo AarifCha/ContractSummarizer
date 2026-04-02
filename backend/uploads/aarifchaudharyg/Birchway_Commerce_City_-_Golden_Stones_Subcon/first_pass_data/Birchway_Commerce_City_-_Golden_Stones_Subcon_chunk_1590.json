@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Clash Resolution:"
+  ],
+  "page_numbers": [
+    80
+  ],
+  "text": "Sign-off:  An ' .nwd ' file containing all signed-off models as well as a sign-off document that all subcontractors are required to sign. Once a model is ready for sign off Contractor's BIM Subcontractor will issue the model and a sign-off document that the subcontractor will need to sign and return. If that document is not returned or a written objection made within 3 days from the date issued, the model will be considered accepted and the coordination process will continue.",
+  "bboxes": [
+    [
+      50.64,
+      279.0799999999999,
+      550.1793199999997,
+      316.4
+    ]
+  ],
+  "chunk_index": 1590
+}

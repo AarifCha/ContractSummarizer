@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "H"
+  ],
+  "page_numbers": [
+    1
+  ],
+  "text": "one two three four five six seven eight",
+  "bboxes": [
+    [
+      0,
+      0,
+      1,
+      1
+    ]
+  ],
+  "chunk_index": 1
+}

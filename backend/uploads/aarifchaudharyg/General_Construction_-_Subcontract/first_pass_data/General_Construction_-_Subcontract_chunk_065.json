@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "$ 500,000 each Accident Property Damage OR"
+  ],
+  "page_numbers": [
+    5
+  ],
+  "text": "$5,000,000 each Occurrence $5,000,000 Aggregate",
+  "bboxes": [
+    [
+      251.7865409863226,
+      678.6204791438122,
+      383.34270916501373,
+      698.79783135
+    ]
+  ],
+  "chunk_index": 65
+}

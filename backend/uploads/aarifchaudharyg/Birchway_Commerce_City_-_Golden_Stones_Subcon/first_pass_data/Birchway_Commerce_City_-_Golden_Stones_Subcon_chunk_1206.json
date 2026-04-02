@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "B.7 DAILY LOGS:"
+  ],
+  "page_numbers": [
+    51
+  ],
+  "text": "- Company Name & Date of work:\n- Manpower (Supervisor and Labor totals):",
+  "bboxes": [
+    [
+      108.02,
+      122.68399999999997,
+      289.25,
+      133.01599999999996
+    ],
+    [
+      108.02,
+      108.04399999999998,
+      328.27,
+      118.37599999999998
+    ]
+  ],
+  "chunk_index": 1206
+}

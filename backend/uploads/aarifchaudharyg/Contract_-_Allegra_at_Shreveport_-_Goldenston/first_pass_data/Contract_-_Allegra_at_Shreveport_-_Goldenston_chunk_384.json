@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Please indicate which of the following is true for the worker listed above."
+  ],
+  "page_numbers": [
+    38
+  ],
+  "text": "Worker currently fits or when hired within the past five years fit, as documented (Check all that apply):",
+  "bboxes": [
+    [
+      72.024,
+      443.7784,
+      528.83152,
+      454.8838
+    ]
+  ],
+  "chunk_index": 384
+}

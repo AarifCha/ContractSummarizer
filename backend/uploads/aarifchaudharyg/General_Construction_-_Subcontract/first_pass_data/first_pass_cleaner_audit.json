@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-04-02T15:45:23.788471+00:00",
+  "mode": "combine_suspect_pages",
+  "stem": "General_Construction_-_Subcontract",
+  "pages_combined": [],
+  "pages_skipped_single_chunk": [
+    9,
+    10,
+    15
+  ],
+  "pages_skipped_override": [],
+  "pages_skipped_not_suspect": [
+    {
+      "page": 1,
+      "total_chunks": 18,
+      "avg_words": 22.2778
+    },
+    {
+      "page": 2,
+      "total_chunks": 6,
+      "avg_words": 138.3333
+    },
+    {
+      "page": 3,
+      "total_chunks": 4,
+      "avg_words": 236.5
+    },
+    {
+      "page": 4,
+      "total_chunks": 20,
+      "avg_words": 24.45
+    },
+    {
+      "page": 5,
+      "total_chunks": 17,
+      "avg_words": 40.7647
+    },
+    {
+      "page": 6,
+      "total_chunks": 10,
+      "avg_words": 78.2
+    },
+    {
+      "page": 7,
+      "total_chunks": 12,
+      "avg_words": 40.25
+    },
+    {
+      "page": 8,
+      "total_chunks": 5,
+      "avg_words": 102.8
+    },
+    {
+      "page": 11,
+      "total_chunks": 21,
+      "avg_words": 22.8571
+    },
+    {
+      "page": 12,
+      "total_chunks": 24,
+      "avg_words": 21.4583
+    },
+    {
+      "page": 13,
+      "total_chunks": 21,
+      "avg_words": 20.9048
+    },
+    {
+      "page": 14,
+      "total_chunks": 23,
+      "avg_words": 18.913
+    },
+    {
+      "page": 16,
+      "total_chunks": 6,
+      "avg_words": 86.5
+    },
+    {
+      "page": 17,
+      "total_chunks": 13,
+      "avg_words": 15.1538
+    }
+  ],
+  "line_split": {
+    "processed_chunks": 203,
+    "skipped_filter_combined": 0,
+    "skipped_line_bbox_mismatch": 0,
+    "input_chunks": 203,
+    "output_chunks": 250
+  }
+}

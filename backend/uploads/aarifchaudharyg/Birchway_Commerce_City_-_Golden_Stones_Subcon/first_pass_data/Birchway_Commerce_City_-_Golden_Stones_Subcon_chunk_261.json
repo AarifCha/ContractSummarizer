@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Safety Inspections"
+  ],
+  "page_numbers": [
+    191
+  ],
+  "text": "Safety inspections need to be conducted in Procore. Observations need to be created for each violation identified and a follow up correction with pictures is required for proper close out. Observations noted on all inspections must be closed out within 24 hours.",
+  "bboxes": [
+    [
+      43.2,
+      580.7999652765957,
+      561.9108239999995,
+      620.0116800000001
+    ]
+  ],
+  "chunk_index": 261
+}

@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Case Study"
+  ],
+  "page_numbers": [
+    219
+  ],
+  "text": "You're walking out of a building that's under construction. A 2x4 falls from above and lands to the left of where you were exiting the building, but it didn't hit you.",
+  "bboxes": [
+    [
+      43.2,
+      314.64404527659576,
+      559.1439359999998,
+      338.856
+    ]
+  ],
+  "chunk_index": 652
+}

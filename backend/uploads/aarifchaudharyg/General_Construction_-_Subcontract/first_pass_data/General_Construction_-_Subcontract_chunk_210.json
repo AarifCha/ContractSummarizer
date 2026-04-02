@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Exhibit \"B-4\""
+  ],
+  "page_numbers": [
+    14
+  ],
+  "text": "4321 Random Street, Bryan, TX 77807",
+  "bboxes": [
+    [
+      74.15999775,
+      391.38254342859113,
+      234.948091959763,
+      399.302847375
+    ]
+  ],
+  "chunk_index": 210
+}

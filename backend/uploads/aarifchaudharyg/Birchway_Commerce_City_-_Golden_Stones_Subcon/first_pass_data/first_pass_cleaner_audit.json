@@ -1,0 +1,1229 @@
+{
+  "generated_at": "2026-04-01T16:35:40.988222+00:00",
+  "mode": "combine_suspect_pages",
+  "stem": "Birchway_Commerce_City_-_Golden_Stones_Subcon",
+  "pages_combined": [
+    {
+      "page": 3,
+      "min_chunk_index": 13,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_013_combined.json",
+      "total_chunks_merged": 33,
+      "avg_words": 3.7576
+    },
+    {
+      "page": 47,
+      "min_chunk_index": 242,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_242_combined.json",
+      "total_chunks_merged": 32,
+      "avg_words": 4.75
+    },
+    {
+      "page": 48,
+      "min_chunk_index": 274,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_274_combined.json",
+      "total_chunks_merged": 19,
+      "avg_words": 2.5263
+    },
+    {
+      "page": 118,
+      "min_chunk_index": 705,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_705_combined.json",
+      "total_chunks_merged": 25,
+      "avg_words": 6.08
+    },
+    {
+      "page": 119,
+      "min_chunk_index": 730,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_730_combined.json",
+      "total_chunks_merged": 31,
+      "avg_words": 4.4516
+    },
+    {
+      "page": 123,
+      "min_chunk_index": 791,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_791_combined.json",
+      "total_chunks_merged": 114,
+      "avg_words": 7.3421
+    },
+    {
+      "page": 130,
+      "min_chunk_index": 939,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_939_combined.json",
+      "total_chunks_merged": 22,
+      "avg_words": 7.0455
+    },
+    {
+      "page": 135,
+      "min_chunk_index": 996,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_996_combined.json",
+      "total_chunks_merged": 9,
+      "avg_words": 2.6667
+    },
+    {
+      "page": 136,
+      "min_chunk_index": 1005,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_1005_combined.json",
+      "total_chunks_merged": 201,
+      "avg_words": 2.2587
+    },
+    {
+      "page": 137,
+      "min_chunk_index": 1206,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_1206_combined.json",
+      "total_chunks_merged": 221,
+      "avg_words": 2.6335
+    },
+    {
+      "page": 138,
+      "min_chunk_index": 1427,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_1427_combined.json",
+      "total_chunks_merged": 233,
+      "avg_words": 1.9313
+    },
+    {
+      "page": 139,
+      "min_chunk_index": 1660,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_1660_combined.json",
+      "total_chunks_merged": 242,
+      "avg_words": 1.7645
+    },
+    {
+      "page": 140,
+      "min_chunk_index": 1902,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_1902_combined.json",
+      "total_chunks_merged": 242,
+      "avg_words": 1.7727
+    },
+    {
+      "page": 141,
+      "min_chunk_index": 2144,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_2144_combined.json",
+      "total_chunks_merged": 238,
+      "avg_words": 1.6597
+    },
+    {
+      "page": 142,
+      "min_chunk_index": 2382,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_2382_combined.json",
+      "total_chunks_merged": 250,
+      "avg_words": 2.036
+    },
+    {
+      "page": 143,
+      "min_chunk_index": 2632,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_2632_combined.json",
+      "total_chunks_merged": 238,
+      "avg_words": 2.0378
+    },
+    {
+      "page": 144,
+      "min_chunk_index": 2870,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_2870_combined.json",
+      "total_chunks_merged": 242,
+      "avg_words": 1.9793
+    },
+    {
+      "page": 145,
+      "min_chunk_index": 3112,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_3112_combined.json",
+      "total_chunks_merged": 257,
+      "avg_words": 2.0895
+    },
+    {
+      "page": 146,
+      "min_chunk_index": 3369,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_3369_combined.json",
+      "total_chunks_merged": 255,
+      "avg_words": 2.0902
+    },
+    {
+      "page": 147,
+      "min_chunk_index": 3624,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_3624_combined.json",
+      "total_chunks_merged": 255,
+      "avg_words": 2.1176
+    },
+    {
+      "page": 148,
+      "min_chunk_index": 3879,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_3879_combined.json",
+      "total_chunks_merged": 225,
+      "avg_words": 1.9289
+    },
+    {
+      "page": 149,
+      "min_chunk_index": 4104,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_4104_combined.json",
+      "total_chunks_merged": 259,
+      "avg_words": 2.0502
+    },
+    {
+      "page": 150,
+      "min_chunk_index": 4363,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_4363_combined.json",
+      "total_chunks_merged": 257,
+      "avg_words": 2.0311
+    },
+    {
+      "page": 151,
+      "min_chunk_index": 4620,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_4620_combined.json",
+      "total_chunks_merged": 246,
+      "avg_words": 2.1829
+    },
+    {
+      "page": 152,
+      "min_chunk_index": 4866,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_4866_combined.json",
+      "total_chunks_merged": 234,
+      "avg_words": 2.0
+    },
+    {
+      "page": 153,
+      "min_chunk_index": 5100,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_5100_combined.json",
+      "total_chunks_merged": 248,
+      "avg_words": 2.0403
+    },
+    {
+      "page": 154,
+      "min_chunk_index": 5348,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_5348_combined.json",
+      "total_chunks_merged": 257,
+      "avg_words": 2.0661
+    },
+    {
+      "page": 155,
+      "min_chunk_index": 5605,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_5605_combined.json",
+      "total_chunks_merged": 248,
+      "avg_words": 2.0847
+    },
+    {
+      "page": 156,
+      "min_chunk_index": 5853,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_5853_combined.json",
+      "total_chunks_merged": 246,
+      "avg_words": 2.1179
+    },
+    {
+      "page": 157,
+      "min_chunk_index": 6099,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_6099_combined.json",
+      "total_chunks_merged": 236,
+      "avg_words": 1.9576
+    },
+    {
+      "page": 158,
+      "min_chunk_index": 6335,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_6335_combined.json",
+      "total_chunks_merged": 257,
+      "avg_words": 2.0311
+    },
+    {
+      "page": 159,
+      "min_chunk_index": 6592,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_6592_combined.json",
+      "total_chunks_merged": 257,
+      "avg_words": 2.0856
+    },
+    {
+      "page": 160,
+      "min_chunk_index": 6849,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_6849_combined.json",
+      "total_chunks_merged": 246,
+      "avg_words": 2.1585
+    },
+    {
+      "page": 161,
+      "min_chunk_index": 7095,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_7095_combined.json",
+      "total_chunks_merged": 232,
+      "avg_words": 1.9784
+    },
+    {
+      "page": 162,
+      "min_chunk_index": 7327,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_7327_combined.json",
+      "total_chunks_merged": 255,
+      "avg_words": 2.0392
+    },
+    {
+      "page": 163,
+      "min_chunk_index": 7582,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_7582_combined.json",
+      "total_chunks_merged": 264,
+      "avg_words": 2.072
+    },
+    {
+      "page": 164,
+      "min_chunk_index": 7846,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_7846_combined.json",
+      "total_chunks_merged": 246,
+      "avg_words": 2.1057
+    },
+    {
+      "page": 165,
+      "min_chunk_index": 8092,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_8092_combined.json",
+      "total_chunks_merged": 244,
+      "avg_words": 2.0902
+    },
+    {
+      "page": 166,
+      "min_chunk_index": 8336,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_8336_combined.json",
+      "total_chunks_merged": 238,
+      "avg_words": 1.9622
+    },
+    {
+      "page": 167,
+      "min_chunk_index": 8574,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_8574_combined.json",
+      "total_chunks_merged": 257,
+      "avg_words": 2.0623
+    },
+    {
+      "page": 168,
+      "min_chunk_index": 8831,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_8831_combined.json",
+      "total_chunks_merged": 255,
+      "avg_words": 2.0902
+    },
+    {
+      "page": 169,
+      "min_chunk_index": 9086,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_9086_combined.json",
+      "total_chunks_merged": 248,
+      "avg_words": 2.1452
+    },
+    {
+      "page": 170,
+      "min_chunk_index": 9334,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_9334_combined.json",
+      "total_chunks_merged": 225,
+      "avg_words": 1.9378
+    },
+    {
+      "page": 171,
+      "min_chunk_index": 9559,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_9559_combined.json",
+      "total_chunks_merged": 264,
+      "avg_words": 2.072
+    },
+    {
+      "page": 172,
+      "min_chunk_index": 9823,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_9823_combined.json",
+      "total_chunks_merged": 257,
+      "avg_words": 2.0467
+    },
+    {
+      "page": 173,
+      "min_chunk_index": 10080,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_10080_combined.json",
+      "total_chunks_merged": 248,
+      "avg_words": 2.1331
+    },
+    {
+      "page": 174,
+      "min_chunk_index": 10328,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_10328_combined.json",
+      "total_chunks_merged": 238,
+      "avg_words": 2.0462
+    },
+    {
+      "page": 175,
+      "min_chunk_index": 10566,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_10566_combined.json",
+      "total_chunks_merged": 244,
+      "avg_words": 1.9672
+    },
+    {
+      "page": 176,
+      "min_chunk_index": 10810,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_10810_combined.json",
+      "total_chunks_merged": 255,
+      "avg_words": 2.0863
+    },
+    {
+      "page": 177,
+      "min_chunk_index": 11065,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_11065_combined.json",
+      "total_chunks_merged": 245,
+      "avg_words": 2.0245
+    },
+    {
+      "page": 178,
+      "min_chunk_index": 11310,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_11310_combined.json",
+      "total_chunks_merged": 238,
+      "avg_words": 1.7395
+    },
+    {
+      "page": 179,
+      "min_chunk_index": 11548,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_11548_combined.json",
+      "total_chunks_merged": 240,
+      "avg_words": 1.7875
+    },
+    {
+      "page": 180,
+      "min_chunk_index": 11788,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_11788_combined.json",
+      "total_chunks_merged": 240,
+      "avg_words": 1.7917
+    },
+    {
+      "page": 181,
+      "min_chunk_index": 12028,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_12028_combined.json",
+      "total_chunks_merged": 240,
+      "avg_words": 1.8208
+    },
+    {
+      "page": 182,
+      "min_chunk_index": 12268,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_12268_combined.json",
+      "total_chunks_merged": 193,
+      "avg_words": 1.9378
+    },
+    {
+      "page": 226,
+      "min_chunk_index": 12684,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_12684_combined.json",
+      "total_chunks_merged": 21,
+      "avg_words": 6.2857
+    },
+    {
+      "page": 227,
+      "min_chunk_index": 12705,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_12705_combined.json",
+      "total_chunks_merged": 24,
+      "avg_words": 5.7083
+    },
+    {
+      "page": 229,
+      "min_chunk_index": 12751,
+      "output": "Birchway_Commerce_City_-_Golden_Stones_Subcon_chunk_12751_combined.json",
+      "total_chunks_merged": 22,
+      "avg_words": 5.2727
+    }
+  ],
+  "pages_skipped_single_chunk": [
+    1,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    58,
+    98,
+    103,
+    109,
+    110,
+    113,
+    114,
+    184,
+    185,
+    201,
+    203,
+    204,
+    210,
+    221
+  ],
+  "pages_skipped_override": [
+    224
+  ],
+  "pages_skipped_not_suspect": [
+    {
+      "page": 2,
+      "total_chunks": 11,
+      "avg_words": 20.7273
+    },
+    {
+      "page": 4,
+      "total_chunks": 4,
+      "avg_words": 93.0
+    },
+    {
+      "page": 5,
+      "total_chunks": 4,
+      "avg_words": 129.25
+    },
+    {
+      "page": 6,
+      "total_chunks": 4,
+      "avg_words": 136.0
+    },
+    {
+      "page": 7,
+      "total_chunks": 4,
+      "avg_words": 103.0
+    },
+    {
+      "page": 8,
+      "total_chunks": 4,
+      "avg_words": 141.5
+    },
+    {
+      "page": 9,
+      "total_chunks": 5,
+      "avg_words": 81.0
+    },
+    {
+      "page": 10,
+      "total_chunks": 6,
+      "avg_words": 70.1667
+    },
+    {
+      "page": 11,
+      "total_chunks": 7,
+      "avg_words": 61.8571
+    },
+    {
+      "page": 12,
+      "total_chunks": 6,
+      "avg_words": 96.1667
+    },
+    {
+      "page": 13,
+      "total_chunks": 6,
+      "avg_words": 104.3333
+    },
+    {
+      "page": 14,
+      "total_chunks": 8,
+      "avg_words": 60.625
+    },
+    {
+      "page": 15,
+      "total_chunks": 6,
+      "avg_words": 86.1667
+    },
+    {
+      "page": 16,
+      "total_chunks": 6,
+      "avg_words": 99.0
+    },
+    {
+      "page": 17,
+      "total_chunks": 3,
+      "avg_words": 190.0
+    },
+    {
+      "page": 18,
+      "total_chunks": 4,
+      "avg_words": 162.0
+    },
+    {
+      "page": 19,
+      "total_chunks": 5,
+      "avg_words": 111.8
+    },
+    {
+      "page": 20,
+      "total_chunks": 3,
+      "avg_words": 214.6667
+    },
+    {
+      "page": 21,
+      "total_chunks": 6,
+      "avg_words": 98.8333
+    },
+    {
+      "page": 22,
+      "total_chunks": 6,
+      "avg_words": 92.8333
+    },
+    {
+      "page": 23,
+      "total_chunks": 4,
+      "avg_words": 130.25
+    },
+    {
+      "page": 24,
+      "total_chunks": 8,
+      "avg_words": 65.75
+    },
+    {
+      "page": 25,
+      "total_chunks": 6,
+      "avg_words": 108.0
+    },
+    {
+      "page": 26,
+      "total_chunks": 26,
+      "avg_words": 11.2308
+    },
+    {
+      "page": 27,
+      "total_chunks": 3,
+      "avg_words": 176.3333
+    },
+    {
+      "page": 28,
+      "total_chunks": 5,
+      "avg_words": 120.8
+    },
+    {
+      "page": 29,
+      "total_chunks": 6,
+      "avg_words": 82.6667
+    },
+    {
+      "page": 30,
+      "total_chunks": 3,
+      "avg_words": 220.3333
+    },
+    {
+      "page": 31,
+      "total_chunks": 3,
+      "avg_words": 172.6667
+    },
+    {
+      "page": 32,
+      "total_chunks": 7,
+      "avg_words": 42.1429
+    },
+    {
+      "page": 33,
+      "total_chunks": 9,
+      "avg_words": 27.7778
+    },
+    {
+      "page": 34,
+      "total_chunks": 7,
+      "avg_words": 20.8571
+    },
+    {
+      "page": 49,
+      "total_chunks": 5,
+      "avg_words": 74.0
+    },
+    {
+      "page": 50,
+      "total_chunks": 3,
+      "avg_words": 156.3333
+    },
+    {
+      "page": 51,
+      "total_chunks": 5,
+      "avg_words": 88.6
+    },
+    {
+      "page": 52,
+      "total_chunks": 6,
+      "avg_words": 63.6667
+    },
+    {
+      "page": 53,
+      "total_chunks": 9,
+      "avg_words": 42.1111
+    },
+    {
+      "page": 54,
+      "total_chunks": 8,
+      "avg_words": 45.875
+    },
+    {
+      "page": 55,
+      "total_chunks": 7,
+      "avg_words": 63.7143
+    },
+    {
+      "page": 56,
+      "total_chunks": 9,
+      "avg_words": 48.5556
+    },
+    {
+      "page": 57,
+      "total_chunks": 3,
+      "avg_words": 105.3333
+    },
+    {
+      "page": 59,
+      "total_chunks": 6,
+      "avg_words": 59.1667
+    },
+    {
+      "page": 60,
+      "total_chunks": 5,
+      "avg_words": 74.8
+    },
+    {
+      "page": 61,
+      "total_chunks": 3,
+      "avg_words": 127.0
+    },
+    {
+      "page": 62,
+      "total_chunks": 7,
+      "avg_words": 55.2857
+    },
+    {
+      "page": 63,
+      "total_chunks": 8,
+      "avg_words": 43.75
+    },
+    {
+      "page": 64,
+      "total_chunks": 5,
+      "avg_words": 72.6
+    },
+    {
+      "page": 65,
+      "total_chunks": 2,
+      "avg_words": 198.5
+    },
+    {
+      "page": 66,
+      "total_chunks": 7,
+      "avg_words": 37.1429
+    },
+    {
+      "page": 67,
+      "total_chunks": 11,
+      "avg_words": 18.1818
+    },
+    {
+      "page": 68,
+      "total_chunks": 2,
+      "avg_words": 49.0
+    },
+    {
+      "page": 69,
+      "total_chunks": 10,
+      "avg_words": 32.3
+    },
+    {
+      "page": 70,
+      "total_chunks": 19,
+      "avg_words": 10.6316
+    },
+    {
+      "page": 71,
+      "total_chunks": 8,
+      "avg_words": 8.75
+    },
+    {
+      "page": 72,
+      "total_chunks": 4,
+      "avg_words": 128.75
+    },
+    {
+      "page": 73,
+      "total_chunks": 3,
+      "avg_words": 175.3333
+    },
+    {
+      "page": 74,
+      "total_chunks": 3,
+      "avg_words": 161.6667
+    },
+    {
+      "page": 75,
+      "total_chunks": 4,
+      "avg_words": 152.0
+    },
+    {
+      "page": 76,
+      "total_chunks": 4,
+      "avg_words": 121.5
+    },
+    {
+      "page": 77,
+      "total_chunks": 4,
+      "avg_words": 125.0
+    },
+    {
+      "page": 78,
+      "total_chunks": 4,
+      "avg_words": 128.0
+    },
+    {
+      "page": 79,
+      "total_chunks": 7,
+      "avg_words": 118.4286
+    },
+    {
+      "page": 80,
+      "total_chunks": 46,
+      "avg_words": 9.2174
+    },
+    {
+      "page": 81,
+      "total_chunks": 3,
+      "avg_words": 154.0
+    },
+    {
+      "page": 82,
+      "total_chunks": 4,
+      "avg_words": 139.75
+    },
+    {
+      "page": 83,
+      "total_chunks": 4,
+      "avg_words": 119.75
+    },
+    {
+      "page": 84,
+      "total_chunks": 2,
+      "avg_words": 50.5
+    },
+    {
+      "page": 85,
+      "total_chunks": 5,
+      "avg_words": 33.0
+    },
+    {
+      "page": 86,
+      "total_chunks": 10,
+      "avg_words": 37.6
+    },
+    {
+      "page": 87,
+      "total_chunks": 10,
+      "avg_words": 33.7
+    },
+    {
+      "page": 88,
+      "total_chunks": 9,
+      "avg_words": 37.0
+    },
+    {
+      "page": 89,
+      "total_chunks": 9,
+      "avg_words": 33.0
+    },
+    {
+      "page": 90,
+      "total_chunks": 4,
+      "avg_words": 32.75
+    },
+    {
+      "page": 91,
+      "total_chunks": 11,
+      "avg_words": 32.7273
+    },
+    {
+      "page": 92,
+      "total_chunks": 7,
+      "avg_words": 42.2857
+    },
+    {
+      "page": 93,
+      "total_chunks": 9,
+      "avg_words": 37.0
+    },
+    {
+      "page": 94,
+      "total_chunks": 8,
+      "avg_words": 35.875
+    },
+    {
+      "page": 95,
+      "total_chunks": 3,
+      "avg_words": 127.3333
+    },
+    {
+      "page": 96,
+      "total_chunks": 3,
+      "avg_words": 146.0
+    },
+    {
+      "page": 97,
+      "total_chunks": 5,
+      "avg_words": 72.4
+    },
+    {
+      "page": 99,
+      "total_chunks": 3,
+      "avg_words": 140.6667
+    },
+    {
+      "page": 100,
+      "total_chunks": 7,
+      "avg_words": 55.4286
+    },
+    {
+      "page": 101,
+      "total_chunks": 6,
+      "avg_words": 71.0
+    },
+    {
+      "page": 102,
+      "total_chunks": 7,
+      "avg_words": 48.1429
+    },
+    {
+      "page": 104,
+      "total_chunks": 2,
+      "avg_words": 232.0
+    },
+    {
+      "page": 105,
+      "total_chunks": 2,
+      "avg_words": 200.0
+    },
+    {
+      "page": 106,
+      "total_chunks": 3,
+      "avg_words": 158.0
+    },
+    {
+      "page": 107,
+      "total_chunks": 2,
+      "avg_words": 86.0
+    },
+    {
+      "page": 108,
+      "total_chunks": 2,
+      "avg_words": 137.0
+    },
+    {
+      "page": 111,
+      "total_chunks": 9,
+      "avg_words": 27.6667
+    },
+    {
+      "page": 112,
+      "total_chunks": 3,
+      "avg_words": 37.6667
+    },
+    {
+      "page": 115,
+      "total_chunks": 3,
+      "avg_words": 81.3333
+    },
+    {
+      "page": 116,
+      "total_chunks": 17,
+      "avg_words": 14.5882
+    },
+    {
+      "page": 117,
+      "total_chunks": 6,
+      "avg_words": 31.5
+    },
+    {
+      "page": 120,
+      "total_chunks": 22,
+      "avg_words": 9.9091
+    },
+    {
+      "page": 121,
+      "total_chunks": 3,
+      "avg_words": 82.3333
+    },
+    {
+      "page": 122,
+      "total_chunks": 5,
+      "avg_words": 35.8
+    },
+    {
+      "page": 124,
+      "total_chunks": 3,
+      "avg_words": 78.0
+    },
+    {
+      "page": 125,
+      "total_chunks": 11,
+      "avg_words": 26.5455
+    },
+    {
+      "page": 126,
+      "total_chunks": 4,
+      "avg_words": 47.25
+    },
+    {
+      "page": 127,
+      "total_chunks": 5,
+      "avg_words": 44.4
+    },
+    {
+      "page": 128,
+      "total_chunks": 6,
+      "avg_words": 41.0
+    },
+    {
+      "page": 129,
+      "total_chunks": 5,
+      "avg_words": 33.0
+    },
+    {
+      "page": 131,
+      "total_chunks": 4,
+      "avg_words": 75.0
+    },
+    {
+      "page": 132,
+      "total_chunks": 8,
+      "avg_words": 20.625
+    },
+    {
+      "page": 133,
+      "total_chunks": 20,
+      "avg_words": 20.75
+    },
+    {
+      "page": 134,
+      "total_chunks": 3,
+      "avg_words": 22.6667
+    },
+    {
+      "page": 186,
+      "total_chunks": 6,
+      "avg_words": 52.6667
+    },
+    {
+      "page": 187,
+      "total_chunks": 4,
+      "avg_words": 97.5
+    },
+    {
+      "page": 188,
+      "total_chunks": 5,
+      "avg_words": 75.6
+    },
+    {
+      "page": 189,
+      "total_chunks": 6,
+      "avg_words": 59.1667
+    },
+    {
+      "page": 190,
+      "total_chunks": 4,
+      "avg_words": 100.0
+    },
+    {
+      "page": 191,
+      "total_chunks": 6,
+      "avg_words": 41.3333
+    },
+    {
+      "page": 192,
+      "total_chunks": 6,
+      "avg_words": 75.5
+    },
+    {
+      "page": 193,
+      "total_chunks": 2,
+      "avg_words": 97.0
+    },
+    {
+      "page": 194,
+      "total_chunks": 4,
+      "avg_words": 95.25
+    },
+    {
+      "page": 195,
+      "total_chunks": 4,
+      "avg_words": 72.5
+    },
+    {
+      "page": 196,
+      "total_chunks": 2,
+      "avg_words": 188.5
+    },
+    {
+      "page": 197,
+      "total_chunks": 2,
+      "avg_words": 204.0
+    },
+    {
+      "page": 198,
+      "total_chunks": 2,
+      "avg_words": 275.0
+    },
+    {
+      "page": 199,
+      "total_chunks": 2,
+      "avg_words": 248.0
+    },
+    {
+      "page": 200,
+      "total_chunks": 3,
+      "avg_words": 123.6667
+    },
+    {
+      "page": 202,
+      "total_chunks": 3,
+      "avg_words": 154.3333
+    },
+    {
+      "page": 205,
+      "total_chunks": 7,
+      "avg_words": 60.2857
+    },
+    {
+      "page": 206,
+      "total_chunks": 4,
+      "avg_words": 99.75
+    },
+    {
+      "page": 207,
+      "total_chunks": 5,
+      "avg_words": 51.6
+    },
+    {
+      "page": 208,
+      "total_chunks": 3,
+      "avg_words": 147.0
+    },
+    {
+      "page": 209,
+      "total_chunks": 3,
+      "avg_words": 153.6667
+    },
+    {
+      "page": 211,
+      "total_chunks": 4,
+      "avg_words": 45.0
+    },
+    {
+      "page": 212,
+      "total_chunks": 2,
+      "avg_words": 135.0
+    },
+    {
+      "page": 213,
+      "total_chunks": 5,
+      "avg_words": 67.8
+    },
+    {
+      "page": 214,
+      "total_chunks": 6,
+      "avg_words": 61.3333
+    },
+    {
+      "page": 215,
+      "total_chunks": 6,
+      "avg_words": 40.3333
+    },
+    {
+      "page": 216,
+      "total_chunks": 2,
+      "avg_words": 206.5
+    },
+    {
+      "page": 217,
+      "total_chunks": 4,
+      "avg_words": 78.25
+    },
+    {
+      "page": 218,
+      "total_chunks": 4,
+      "avg_words": 50.25
+    },
+    {
+      "page": 219,
+      "total_chunks": 9,
+      "avg_words": 33.4444
+    },
+    {
+      "page": 220,
+      "total_chunks": 4,
+      "avg_words": 40.5
+    },
+    {
+      "page": 222,
+      "total_chunks": 10,
+      "avg_words": 34.2
+    },
+    {
+      "page": 223,
+      "total_chunks": 10,
+      "avg_words": 28.3
+    },
+    {
+      "page": 225,
+      "total_chunks": 20,
+      "avg_words": 9.8
+    },
+    {
+      "page": 228,
+      "total_chunks": 22,
+      "avg_words": 14.0909
+    },
+    {
+      "page": 230,
+      "total_chunks": 6,
+      "avg_words": 30.1667
+    },
+    {
+      "page": 231,
+      "total_chunks": 9,
+      "avg_words": 35.7778
+    },
+    {
+      "page": 232,
+      "total_chunks": 9,
+      "avg_words": 29.1111
+    },
+    {
+      "page": 233,
+      "total_chunks": 9,
+      "avg_words": 46.2222
+    },
+    {
+      "page": 234,
+      "total_chunks": 8,
+      "avg_words": 48.125
+    },
+    {
+      "page": 235,
+      "total_chunks": 14,
+      "avg_words": 31.6429
+    },
+    {
+      "page": 236,
+      "total_chunks": 17,
+      "avg_words": 31.0
+    },
+    {
+      "page": 237,
+      "total_chunks": 12,
+      "avg_words": 39.0833
+    },
+    {
+      "page": 238,
+      "total_chunks": 19,
+      "avg_words": 29.3684
+    },
+    {
+      "page": 239,
+      "total_chunks": 14,
+      "avg_words": 40.7143
+    },
+    {
+      "page": 240,
+      "total_chunks": 14,
+      "avg_words": 42.2143
+    },
+    {
+      "page": 241,
+      "total_chunks": 4,
+      "avg_words": 15.75
+    },
+    {
+      "page": 242,
+      "total_chunks": 44,
+      "avg_words": 21.0682
+    }
+  ],
+  "line_split": {
+    "processed_chunks": 1143,
+    "skipped_filter_combined": 58,
+    "skipped_line_bbox_mismatch": 0,
+    "input_chunks": 1143,
+    "output_chunks": 1970
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "Qualitative efforts to comply with Section 3 may include, but are not limited to, the following:"
+  ],
+  "page_numbers": [
+    34
+  ],
+  "text": "2. Provided training or apprenticeship opportunities.\n3. Provided technical assistance to help Section 3 Workers compete for jobs (e.g., resume assistance, coaching).",
+  "bboxes": [
+    [
+      90.0,
+      612.49168,
+      342.82,
+      625.24432
+    ],
+    [
+      90.0,
+      564.3116799999999,
+      511.08976,
+      590.32432
+    ]
+  ],
+  "chunk_index": 341
+}

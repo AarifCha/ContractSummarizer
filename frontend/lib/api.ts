@@ -21,6 +21,76 @@ export type PdfProcessingStatus = {
   error: string | null;
 };
 
+export type QaSearchResult = {
+  rank: number | null;
+  chunk_id: string;
+  score: number | null;
+  relevance_score?: number;
+  origin_sections?: string[];
+  text: string;
+  page_numbers: number[];
+  bboxes: number[][];
+  headings: string[];
+  chunk_index: number;
+  source_file: string;
+};
+
+export type QaSearchResponse = {
+  results: QaSearchResult[];
+};
+
+export type SectionOptionsResponse = {
+  sections: string[];
+};
+
+export type CitationMapEntry = {
+  raw: string;
+  chunk_indices: number[];
+  chunk_ids: string[];
+};
+
+export type SectionSearchResponse = {
+  mode?: "all_sections_summary";
+  section: string;
+  queries: string[];
+  results: QaSearchResult[];
+  highlight_chunks?: QaSearchResult[];
+  highlights_by_page?: Record<string, number[][]>;
+  raw_summary_text?: string;
+  summary_text?: string;
+  summary_model?: string;
+  task_id?: string;
+  status?: "queued" | "running" | "done" | "failed";
+  phase?: "queued" | "gemma_windows" | "flash_lite" | "done" | "failed";
+  flash_lite_status?: "pending" | "running" | "done" | "failed";
+  total_windows?: number;
+  completed_windows?: number;
+  citation_map?: Record<string, CitationMapEntry>;
+  api_usage_summary?: {
+    per_model: Record<
+      string,
+      {
+        model_id: string;
+        prompt_tokens: number;
+        completion_tokens: number;
+        total_tokens: number;
+        input_cost: number;
+        output_cost: number;
+        total_cost: number;
+      }
+    >;
+    totals: {
+      prompt_tokens: number;
+      completion_tokens: number;
+      total_tokens: number;
+      input_cost: number;
+      output_cost: number;
+      total_cost: number;
+    };
+  };
+  error?: string | null;
+};
+
 function authHeaders(token: string | null): HeadersInit {
   if (!token) {
     return {};
@@ -140,4 +210,73 @@ export function pdfViewUrl(id: number, token: string | null) {
     url.searchParams.set("token", token);
   }
   return url.toString();
+}
+
+export async function searchPdfQa(
+  token: string | null,
+  id: number,
+  query: string,
+  topK = 5
+): Promise<QaSearchResponse> {
+  const response = await fetch(`${API_URL}/api/pdfs/${id}/qa-search`, {
+    method: "POST",
+    headers: {
+      ...authHeaders(token),
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ query, top_k: topK })
+  });
+  if (!response.ok) {
+    const body = await response.json().catch(() => ({}));
+    throw new Error(body.detail ?? "Unable to run QA search");
+  }
+  return response.json();
+}
+
+export async function getSectionOptions(token: string | null): Promise<SectionOptionsResponse> {
+  const response = await fetch(`${API_URL}/api/pdfs/section-options`, {
+    headers: authHeaders(token),
+    cache: "no-store"
+  });
+  if (!response.ok) {
+    const body = await response.json().catch(() => ({}));
+    throw new Error(body.detail ?? "Unable to load section options");
+  }
+  return response.json();
+}
+
+export async function searchPdfSection(
+  token: string | null,
+  id: number,
+  section: string,
+  topKPerQuery = 5
+): Promise<SectionSearchResponse> {
+  const response = await fetch(`${API_URL}/api/pdfs/${id}/section-search`, {
+    method: "POST",
+    headers: {
+      ...authHeaders(token),
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ section, top_k_per_query: topKPerQuery })
+  });
+  if (!response.ok) {
+    const body = await response.json().catch(() => ({}));
+    throw new Error(body.detail ?? "Unable to run section search");
+  }
+  return response.json();
+}
+
+export async function getSectionSearchStatus(
+  token: string | null,
+  taskId: string
+): Promise<SectionSearchResponse> {
+  const response = await fetch(`${API_URL}/api/pdfs/section-search-status/${taskId}`, {
+    headers: authHeaders(token),
+    cache: "no-store"
+  });
+  if (!response.ok) {
+    const body = await response.json().catch(() => ({}));
+    throw new Error(body.detail ?? "Unable to load section search status");
+  }
+  return response.json();
 }

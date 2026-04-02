@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Exhibit \"B-4\""
+  ],
+  "page_numbers": [
+    14
+  ],
+  "text": "Awesome Office Building 789 Some Street Bryan, TX 77801",
+  "bboxes": [
+    [
+      30.959999249999996,
+      614.4625224285912,
+      146.8989318820302,
+      643.622831625
+    ]
+  ],
+  "chunk_index": 201
+}

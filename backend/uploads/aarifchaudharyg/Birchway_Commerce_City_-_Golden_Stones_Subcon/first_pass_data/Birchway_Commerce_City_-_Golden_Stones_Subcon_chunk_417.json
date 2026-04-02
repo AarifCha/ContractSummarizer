@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "Ladders and Stairs"
+  ],
+  "page_numbers": [
+    201
+  ],
+  "text": "11. Aluminum ladders are not allowed.\n12. All ladders must be rated a Type 1A or above.",
+  "bboxes": [
+    [
+      43.190039999999954,
+      394.60679070074207,
+      219.85055999999994,
+      404.0361600000001
+    ],
+    [
+      43.19999999999996,
+      376.60907070074205,
+      269.89956,
+      386.0384400000001
+    ]
+  ],
+  "chunk_index": 417
+}

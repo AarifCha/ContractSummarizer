@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Such insurance shall be written for not less than the following limits:"
+  ],
+  "page_numbers": [
+    4
+  ],
+  "text": "$ 500,000 each Person Bodily Injury $1,000,000 each Accident Bodily Injury",
+  "bboxes": [
+    [
+      251.8011181036911,
+      48.26048289381208,
+      427.61679317531696,
+      68.43783510000003
+    ]
+  ],
+  "chunk_index": 61
+}

@@ -9,8 +9,12 @@
   },
   "dependencies": {
     "next": "^15.2.4",
+    "pdfjs-dist": "^4.8.69",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "react-pdf": "^9.2.1",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@types/node": "^22.13.11",

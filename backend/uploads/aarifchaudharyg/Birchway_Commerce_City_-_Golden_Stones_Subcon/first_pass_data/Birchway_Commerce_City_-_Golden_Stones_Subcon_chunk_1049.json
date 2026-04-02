@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "CONTRACTOR:"
+  ],
+  "page_numbers": [
+    26
+  ],
+  "text": "7902 Hillmont Street Houston, Texas 77040",
+  "bboxes": [
+    [
+      307.9995,
+      315.203896875,
+      417.2025360000001,
+      337.1873925
+    ]
+  ],
+  "chunk_index": 1049
+}

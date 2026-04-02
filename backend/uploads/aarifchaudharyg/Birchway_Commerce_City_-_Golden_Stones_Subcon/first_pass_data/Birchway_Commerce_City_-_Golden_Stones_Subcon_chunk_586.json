@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "Informal/Formal Conferences"
+  ],
+  "page_numbers": [
+    213
+  ],
+  "text": "- o Date and time of inspection\n- o Reason for inspection",
+  "bboxes": [
+    [
+      349.19111999999996,
+      584.239513457395,
+      486.8223839999998,
+      595.0789200000003
+    ],
+    [
+      349.19111999999996,
+      566.241793457395,
+      458.8806,
+      577.0812000000003
+    ]
+  ],
+  "chunk_index": 586
+}

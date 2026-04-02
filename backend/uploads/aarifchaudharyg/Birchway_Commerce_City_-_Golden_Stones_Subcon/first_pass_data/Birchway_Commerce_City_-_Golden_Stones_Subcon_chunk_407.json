@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Ladders and Stairs"
+  ],
+  "page_numbers": [
+    201
+  ],
+  "text": "1. All employees who use ladders must be trained.",
+  "bboxes": [
+    [
+      43.2,
+      679.582310700742,
+      278.40540000000004,
+      689.0116800000001
+    ]
+  ],
+  "chunk_index": 407
+}

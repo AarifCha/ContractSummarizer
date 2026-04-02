@@ -1,0 +1,30 @@
+{
+  "headings": [
+    "Step One: Assess the Situation"
+  ],
+  "page_numbers": [
+    217
+  ],
+  "text": "- o Risk notifies insurance company(ies).\n- Notify the owner/developer of the project.\n- Travel to site.",
+  "bboxes": [
+    [
+      205.2,
+      396.5322734573947,
+      387.48792000000003,
+      407.37167999999997
+    ],
+    [
+      169.2,
+      381.5994852765957,
+      379.56516000000005,
+      390.81167999999997
+    ],
+    [
+      169.2,
+      364.9194852765957,
+      252.00743999999997,
+      374.13167999999996
+    ]
+  ],
+  "chunk_index": 631
+}

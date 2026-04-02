@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Electrical"
+  ],
+  "page_numbers": [
+    196
+  ],
+  "text": "1. GFCI protection is required on all 15- and 20-amp, 120-volt receptacles. When using 'house power', welding machines or generators for 120-volt power, GFCI protection is still required. A GFCI 'pigtail' may be used to provide the required protection. GFCI pigtails should be plugged in at the source of power, which will protect the extension cord and all loads down line.",
+  "bboxes": [
+    [
+      43.19999999999999,
+      519.8418852765955,
+      571.1666520000001,
+      574.0533599999999
+    ]
+  ],
+  "chunk_index": 327
+}

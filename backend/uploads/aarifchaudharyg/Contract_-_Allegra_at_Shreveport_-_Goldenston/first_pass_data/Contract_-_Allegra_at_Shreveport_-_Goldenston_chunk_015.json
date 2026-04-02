@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Section 1."
+  ],
+  "page_numbers": [
+    1
+  ],
+  "text": "Exhibit 'A' attached hereto and incorporated herein",
+  "bboxes": [
+    [
+      213.14475,
+      212.31035850000012,
+      446.5349610000002,
+      222.20990849999998
+    ]
+  ],
+  "chunk_index": 15
+}

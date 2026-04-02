@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Section 1."
+  ],
+  "page_numbers": [
+    1
+  ],
+  "text": "SUBCONTRACTOR: ADDRESS:",
+  "bboxes": [
+    [
+      50.400000000000006,
+      259.8303585000001,
+      148.7685285,
+      281.60990849999996
+    ]
+  ],
+  "chunk_index": 10
+}

@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "What's New"
+  ],
+  "page_numbers": [
+    242
+  ],
+  "text": "Line 3a has been modified to clarify how a disregarded entity completes this line. An LLC that is a disregarded entity should check the appropriate box for the tax classification of its owner. Otherwise, it should check the 'LLC' box and enter its appropriate tax classification.",
+  "bboxes": [
+    [
+      36.0,
+      59.97101757812504,
+      295.4559999999999,
+      93.96701757812502
+    ]
+  ],
+  "chunk_index": 1000
+}

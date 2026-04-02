@@ -1,0 +1,30 @@
+{
+  "headings": [
+    "E.5.9) Chemical Labeling"
+  ],
+  "page_numbers": [
+    65
+  ],
+  "text": "- a. The original manufacturer's label; or\n- b. Written words indicating the contents and hazard (for example, GASOLINE FLAMMABLE ); or\n- c. Commercially available warning labels.",
+  "bboxes": [
+    [
+      108.02,
+      131.32400000000007,
+      304.37,
+      141.65599999999995
+    ],
+    [
+      108.02,
+      107.32399999999996,
+      512.38,
+      129.65599999999995
+    ],
+    [
+      108.02,
+      94.60799999999995,
+      320.33,
+      104.94000000000005
+    ]
+  ],
+  "chunk_index": 1366
+}

@@ -22,6 +22,7 @@ type UploadJob = {
   pdfId?: number;
   fileName: string;
   metadata: {
+    stage?: string | null;
     status: StepStatus;
     progressPercent: number;
     completedChunks: number;
@@ -30,10 +31,52 @@ type UploadJob = {
   };
 };
 
+type StageCardState = {
+  status: StepStatus;
+  progressPercent: number;
+  completedChunks: number;
+  totalChunks: number;
+  error?: string;
+};
+
 function overallJobBadge(job: UploadJob): "running" | "done" | "failed" {
   if (job.metadata.status === "failed") return "failed";
   if (job.metadata.status === "done") return "done";
   return "running";
+}
+
+function stageCardState(job: UploadJob, targetStage: "first_pass_extraction" | "chunk_embedding"): StageCardState {
+  const m = job.metadata;
+  const stage = m.stage ?? "first_pass_extraction";
+  const base: StageCardState = {
+    status: "queued",
+    progressPercent: 0,
+    completedChunks: 0,
+    totalChunks: 1,
+  };
+  if (targetStage === "first_pass_extraction") {
+    if (stage === "first_pass_extraction") {
+      return { ...base, ...m };
+    }
+    if (m.status === "failed" && stage === "first_pass_extraction") {
+      return { ...base, status: "failed", error: m.error };
+    }
+    if (stage === "chunk_embedding" || m.status === "done") {
+      return { ...base, status: "done", progressPercent: 100, completedChunks: 1, totalChunks: 1 };
+    }
+    return base;
+  }
+  // targetStage === "chunk_embedding"
+  if (stage === "chunk_embedding") {
+    return { ...base, ...m };
+  }
+  if (m.status === "done" && stage === "chunk_embedding") {
+    return { ...base, status: "done", progressPercent: 100, completedChunks: 1, totalChunks: 1 };
+  }
+  if (m.status === "failed" && stage === "chunk_embedding") {
+    return { ...base, status: "failed", error: m.error };
+  }
+  return base;
 }
 
 export default function LibraryClient() {
@@ -67,6 +110,7 @@ export default function LibraryClient() {
       pdfId: file.id,
       fileName: file.original_name,
       metadata: {
+        stage: file.processing_stage ?? null,
         status: metaStatus,
         progressPercent,
         completedChunks: clampedCompleted,
@@ -142,6 +186,7 @@ export default function LibraryClient() {
                     ...existing,
                     metadata: {
                       ...existing.metadata,
+                      stage: status.stage,
                       status: "failed" as const,
                       progressPercent: status.progress_percent,
                       completedChunks: status.completed_chunks,
@@ -155,6 +200,7 @@ export default function LibraryClient() {
                     ...existing,
                     metadata: {
                       ...existing.metadata,
+                      stage: status.stage,
                       status: "done" as const,
                       progressPercent: 100,
                       completedChunks: status.total_chunks,
@@ -167,6 +213,7 @@ export default function LibraryClient() {
                   ...existing,
                   metadata: {
                     ...existing.metadata,
+                    stage: status.stage,
                     status: "running" as const,
                     progressPercent: status.progress_percent,
                     completedChunks: status.completed_chunks,
@@ -212,6 +259,7 @@ export default function LibraryClient() {
         id: jobId,
         fileName: fileToUpload.name,
         metadata: {
+          stage: "first_pass_extraction",
           status: "queued",
           progressPercent: 0,
           completedChunks: 0,
@@ -254,6 +302,7 @@ export default function LibraryClient() {
               pdfId,
               metadata: {
                 ...job.metadata,
+                stage: "first_pass_extraction",
                 status: "running",
                 totalChunks: 1,
               },
@@ -330,6 +379,8 @@ export default function LibraryClient() {
                 <div className="pipelineList">
                   {uploadJobs.map((job) => {
                     const overall = overallJobBadge(job);
+                    const firstPass = stageCardState(job, "first_pass_extraction");
+                    const embedding = stageCardState(job, "chunk_embedding");
                     return (
                       <article className="pipelineFileCard" key={job.id}>
                         <div className="pipelineFileCardHeader">
@@ -350,11 +401,11 @@ export default function LibraryClient() {
                         <div className="pipelineSubSteps">
                           <div
                             className={`pipelineSubCard ${
-                              job.metadata.status === "failed"
+                              firstPass.status === "failed"
                                 ? "failed"
-                                : job.metadata.status === "done"
+                                : firstPass.status === "done"
                                   ? "done"
-                                  : job.metadata.status === "queued"
+                                  : firstPass.status === "queued"
                                     ? "queued"
                                     : "running"
                             }`}
@@ -367,36 +418,36 @@ export default function LibraryClient() {
                                   context, bounding boxes, and regex-detected cross-references.
                                 </p>
                               </div>
-                              {job.metadata.status === "queued" && (
+                              {firstPass.status === "queued" && (
                                 <span className="pipelineBadge pending">Pending</span>
                               )}
-                              {job.metadata.status === "running" && (
+                              {firstPass.status === "running" && (
                                 <span className="pipelineBadge running">Working</span>
                               )}
-                              {job.metadata.status === "done" && <span className="pipelineBadge done">Finished</span>}
-                              {job.metadata.status === "failed" && (
+                              {firstPass.status === "done" && <span className="pipelineBadge done">Finished</span>}
+                              {firstPass.status === "failed" && (
                                 <span className="pipelineBadge failed">Failed</span>
                               )}
                             </div>
                             <div className="pipelineStepRow" style={{ marginTop: 8, marginBottom: 6 }}>
                               <span className="pipelineStepLabel">
-                                {job.metadata.status === "queued"
+                                {firstPass.status === "queued"
                                   ? "Queued…"
-                                  : job.metadata.status === "done"
+                                  : firstPass.status === "done"
                                     ? "First pass complete"
-                                    : job.metadata.totalChunks > 1
-                                      ? `${job.metadata.completedChunks}/${job.metadata.totalChunks} stages`
+                                    : firstPass.totalChunks > 1
+                                      ? `${firstPass.completedChunks}/${firstPass.totalChunks} stages`
                                       : "Running Docling first pass…"}
                               </span>
                               <span className="pipelineStepLabel">
-                                {job.metadata.status === "queued" ? "—" : `${job.metadata.progressPercent}%`}
+                                {firstPass.status === "queued" ? "—" : `${firstPass.progressPercent}%`}
                               </span>
                             </div>
                             <div
                               className={`progressTrack ${
-                                job.metadata.status === "failed"
+                                firstPass.status === "failed"
                                   ? "failed"
-                                  : job.metadata.status === "done"
+                                  : firstPass.status === "done"
                                     ? "done"
                                     : "running"
                               }`}
@@ -405,17 +456,70 @@ export default function LibraryClient() {
                                 className="progressFill"
                                 style={{
                                   width:
-                                    job.metadata.status === "queued"
+                                    firstPass.status === "queued"
                                       ? "0%"
-                                      : `${job.metadata.progressPercent}%`,
+                                      : `${firstPass.progressPercent}%`,
                                 }}
                               />
                             </div>
-                            {job.metadata.error && (
+                            {firstPass.error && (
                               <p className="pipelineError">
-                                {job.metadata.error.length > 220
-                                  ? job.metadata.error.slice(0, 220) + "…"
-                                  : job.metadata.error}
+                                {firstPass.error.length > 220 ? firstPass.error.slice(0, 220) + "…" : firstPass.error}
+                              </p>
+                            )}
+                          </div>
+                          <div
+                            className={`pipelineSubCard ${
+                              embedding.status === "failed"
+                                ? "failed"
+                                : embedding.status === "done"
+                                  ? "done"
+                                  : embedding.status === "queued"
+                                    ? "queued"
+                                    : "running"
+                            }`}
+                          >
+                            <div className="pipelineSubCardTop">
+                              <div>
+                                <strong className="pipelineSubCardTitle">Chunk embeddings (VectorDB)</strong>
+                                <p className="muted pipelineSubCardDesc">
+                                  Embeds each processed chunk and writes vectors to <code className="pipelineInlineCode">VectorDB/</code>.
+                                </p>
+                              </div>
+                              {embedding.status === "queued" && <span className="pipelineBadge pending">Pending</span>}
+                              {embedding.status === "running" && <span className="pipelineBadge running">Working</span>}
+                              {embedding.status === "done" && <span className="pipelineBadge done">Finished</span>}
+                              {embedding.status === "failed" && <span className="pipelineBadge failed">Failed</span>}
+                            </div>
+                            <div className="pipelineStepRow" style={{ marginTop: 8, marginBottom: 6 }}>
+                              <span className="pipelineStepLabel">
+                                {embedding.status === "queued"
+                                  ? "Waiting for first pass…"
+                                  : embedding.status === "done"
+                                    ? "Embedding complete"
+                                    : `${embedding.completedChunks}/${embedding.totalChunks} chunks`}
+                              </span>
+                              <span className="pipelineStepLabel">
+                                {embedding.status === "queued" ? "—" : `${embedding.progressPercent}%`}
+                              </span>
+                            </div>
+                            <div
+                              className={`progressTrack ${
+                                embedding.status === "failed"
+                                  ? "failed"
+                                  : embedding.status === "done"
+                                    ? "done"
+                                    : "running"
+                              }`}
+                            >
+                              <div
+                                className="progressFill"
+                                style={{ width: embedding.status === "queued" ? "0%" : `${embedding.progressPercent}%` }}
+                              />
+                            </div>
+                            {embedding.error && (
+                              <p className="pipelineError">
+                                {embedding.error.length > 220 ? embedding.error.slice(0, 220) + "…" : embedding.error}
                               </p>
                             )}
                           </div>

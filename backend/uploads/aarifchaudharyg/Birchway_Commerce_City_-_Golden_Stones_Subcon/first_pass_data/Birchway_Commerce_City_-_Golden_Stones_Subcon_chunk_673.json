@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "911 Caller will also:"
+  ],
+  "page_numbers": [
+    222
+  ],
+  "text": "- o Assign someone to meet the ambulance at the gate.",
+  "bboxes": [
+    [
+      48.0,
+      332.88497864838394,
+      303.36672000000004,
+      342.81167999999997
+    ]
+  ],
+  "chunk_index": 673
+}

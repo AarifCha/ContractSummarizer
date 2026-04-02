@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Request for Taxpayer Identification Number and Certification"
+  ],
+  "page_numbers": [
+    242
+  ],
+  "text": "Note: Check the 'LLC' box above and, in the entry space, enter the appropriate code (C, S, or P) for the tax classification of the LLC, unless it is a disregarded entity. A disregarded entity should instead check the appropriate box for the tax classification of its owner.",
+  "bboxes": [
+    [
+      86.4,
+      564.973517578125,
+      445.9283999999992,
+      586.5930175781251
+    ]
+  ],
+  "chunk_index": 975
+}

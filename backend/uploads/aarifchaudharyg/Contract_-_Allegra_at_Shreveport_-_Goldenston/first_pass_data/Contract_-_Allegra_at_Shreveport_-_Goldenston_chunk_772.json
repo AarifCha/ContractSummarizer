@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Survey Rate Identifiers"
+  ],
+  "page_numbers": [
+    75
+  ],
+  "text": "Classification(s) listed under the UAVG identifier indicate that no single majority rate prevailed for those classifications; however, 100% of the data reported for the classifications was union data. EXAMPLE: UAVG-OH-0010 08/29/2014. UAVG indicates that the rate is a weighted union average rate. OH indicates the state. The next number, 0010 in the example, is an internal number used in producing the wage determination. 08/29/2014 indicates the survey completion date for the classifications and rates under that identifier.",
+  "bboxes": [
+    [
+      34.499,
+      234.56574999999998,
+      365.92700600000006,
+      335.948303
+    ]
+  ],
+  "chunk_index": 772
+}

@@ -1,26 +1,26 @@
 #!/usr/bin/env python3
 """
-One-off: embed preset contract-summary query strings from SectionToQueries.json (Gemini embedding
-model, same as graphDBGen) and write presetSummaryEmbbedings/embedDict.json.
+One-off: embed preset contract-summary query strings from SectionToQueries.json via the
+local Jina embeddings model and write presetSummaryEmbbedings/embedDict.json.
 
   cd .../ContractSummarizer/backend
-  export GEMINI_API_KEY=...   # or GOOGLE_API_KEY
   python scripts/build_preset_summary_embeddings.py
 
-  # or: python scripts/build_preset_summary_embeddings.py --db-user-id 1
+  # optional: python scripts/build_preset_summary_embeddings.py --model jinaai/jina-embeddings-v3
 """
 
 from __future__ import annotations
 
 import argparse
 import json
-import os
-import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-EMBEDDING_MODEL = "models/gemini-embedding-2-preview"
+from sentence_transformers import SentenceTransformer
+
+EMBEDDING_MODEL = "jinaai/jina-embeddings-v3"
+QUERY_TASK_NAME = "retrieval.query"
 
 
 def _backend_root() -> Path:
@@ -60,44 +60,30 @@ def _load_unique_phrases_from_section_queries(
     return phrases, titles
 
 
-def _resolve_api_key(args: argparse.Namespace) -> str:
-    if args.db_user_id is not None:
-        sys.path.insert(0, str(_backend_root()))
-        from app.core.api_keys import get_user_api_key
-
-        key = get_user_api_key(int(args.db_user_id))
-        if not key:
-            raise SystemExit(
-                f"No Gemini API key in DB for user_id={args.db_user_id}. "
-                "Use the app or GEMINI_API_KEY."
-            )
-        return key
-    key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
-    if not key:
-        raise SystemExit(
-            "Set GEMINI_API_KEY or GOOGLE_API_KEY, or use --db-user-id <id>."
-        )
-    return key
-
-
-def _embed_all(texts: list[str], api_key: str) -> list[list[float]]:
-    import google.generativeai as genai
-
-    genai.configure(api_key=api_key)
+def _embed_all(texts: list[str], model_name: str) -> list[list[float]]:
+    model = SentenceTransformer(model_name, trust_remote_code=True)
     out: list[list[float]] = []
     for text in texts:
         content = (text or "").strip() or "[empty]"
-        response = genai.embed_content(model=EMBEDDING_MODEL, content=content)
-        emb = response.get("embedding")
-        if emb is None:
-            raise RuntimeError(f"No embedding for {content[:80]!r}")
-        out.append([float(x) for x in emb])
+        try:
+            emb = model.encode(
+                content,
+                task=QUERY_TASK_NAME,
+                convert_to_numpy=True,
+                show_progress_bar=False,
+            )
+        except TypeError:
+            emb = model.encode(content, convert_to_numpy=True, show_progress_bar=False)
+
+        # SentenceTransformer may return 1-D vector or shape (1, d).
+        row = emb[0] if getattr(emb, "ndim", 1) > 1 else emb
+        out.append([float(x) for x in row])
     return out
 
 
 def main() -> None:
     p = argparse.ArgumentParser()
-    p.add_argument("--db-user-id", type=int, default=None)
+    p.add_argument("--model", default=EMBEDDING_MODEL)
     p.add_argument("--dry-run", action="store_true")
     args = p.parse_args()
 
@@ -116,11 +102,12 @@ def main() -> None:
         print(f"Sections: {len(section_titles)}  Unique phrases: {len(phrases)} -> {out_path}")
         return
 
-    vectors = _embed_all(phrases, _resolve_api_key(args))
+    vectors = _embed_all(phrases, args.model)
     embed_dict = dict(zip(phrases, vectors, strict=True))
 
     payload = {
-        "embedding_model": EMBEDDING_MODEL,
+        "embedding_model": args.model,
+        "embedding_task": QUERY_TASK_NAME,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "phrase_count": len(phrases),
         "source": "SectionToQueries.json",

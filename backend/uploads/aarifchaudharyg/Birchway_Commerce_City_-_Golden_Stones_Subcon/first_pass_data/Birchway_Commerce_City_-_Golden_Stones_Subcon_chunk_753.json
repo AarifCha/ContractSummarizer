@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "Project Hazard Assessment"
+  ],
+  "page_numbers": [
+    225
+  ],
+  "text": "2. Identify existing utility locations\n3. Identify Vehicular/pedestrian traffic patterns around the project",
+  "bboxes": [
+    [
+      43.20155999999997,
+      356.6705907007419,
+      204.12527999999995,
+      366.09995999999995
+    ],
+    [
+      43.19159999999994,
+      338.6728707007419,
+      345.23856,
+      348.10223999999994
+    ]
+  ],
+  "chunk_index": 753
+}

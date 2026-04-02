@@ -1,0 +1,24 @@
+{
+  "headings": [
+    "Using Textura will provide:"
+  ],
+  "page_numbers": [
+    2
+  ],
+  "text": "- Immediate feedback if invoice correction is required.\n- Direct electronic payment via ACH",
+  "bboxes": [
+    [
+      59.4,
+      426.908076635514,
+      310.65704,
+      436.24071999999995
+    ],
+    [
+      59.4,
+      413.348076635514,
+      230.85704,
+      422.68071999999995
+    ]
+  ],
+  "chunk_index": 21
+}

@@ -1,0 +1,30 @@
+{
+  "headings": [
+    "COMMUNICATION"
+  ],
+  "page_numbers": [
+    231
+  ],
+  "text": "- o Posted or distributed safety information.\n- o A system for workers to anonymously inform management about workplace hazards.\n- o Incident review.",
+  "bboxes": [
+    [
+      38.16,
+      125.16497864838391,
+      241.44588,
+      135.09168
+    ],
+    [
+      38.16,
+      107.16497864838391,
+      434.88900000000007,
+      117.09168
+    ],
+    [
+      38.16,
+      89.16497864838391,
+      129.366,
+      99.09168
+    ]
+  ],
+  "chunk_index": 808
+}

@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Part I Taxpayer Identification Number (TIN)"
+  ],
+  "page_numbers": [
+    242
+  ],
+  "text": "Enter your TIN in the appropriate box. The TIN provided must match the name given on line 1 to avoid backup withholding. For individuals, this is generally your social security number (SSN). However, for a resident alien, sole proprietor, or disregarded entity, see the instructions for Part I, later. For other entities, it is your employer identification number (EIN). If you do not have a number, see How to get a TIN , later.",
+  "bboxes": [
+    [
+      36.0,
+      380.97201757812496,
+      404.1759999999999,
+      426.36801757812503
+    ]
+  ],
+  "chunk_index": 986
+}

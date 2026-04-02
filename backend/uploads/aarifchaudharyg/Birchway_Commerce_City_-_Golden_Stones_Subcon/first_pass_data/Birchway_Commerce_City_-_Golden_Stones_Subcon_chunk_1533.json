@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Exhibit J.1"
+  ],
+  "page_numbers": [
+    79
+  ],
+  "text": "- a. (Division 05) Structural Steel - All beams, columns, joists, diagonal braces, K-braces, stairs, handrails, guard rails, misc. steel bracing and architectural steel. Modeled at the correct orientation, location and size.  Connections including gusset plates, embed plates, anchor rods, coping, etc. Joists to be modeled with the actual profile and web member locations as well as bridging.",
+  "bboxes": [
+    [
+      74.064,
+      553.57,
+      542.1001600000001,
+      581.05
+    ]
+  ],
+  "chunk_index": 1533
+}

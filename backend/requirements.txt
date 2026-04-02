@@ -5,6 +5,11 @@ passlib[bcrypt]==1.7.4
 email-validator==2.2.0
 docling
 pymupdf
-kuzu
 numpy
 google-generativeai
+google-genai
+chromadb
+sentence-transformers
+einops
+huggingface_hub
+llama-cpp-python

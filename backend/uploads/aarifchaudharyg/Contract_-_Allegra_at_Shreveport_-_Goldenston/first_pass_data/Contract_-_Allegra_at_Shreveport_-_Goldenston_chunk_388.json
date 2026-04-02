@@ -1,0 +1,18 @@
+{
+  "headings": [
+    "Please indicate which of the following is true for the worker listed above."
+  ],
+  "page_numbers": [
+    38
+  ],
+  "text": "- [ ] ☐ Worker is a Youthbuild participant .",
+  "bboxes": [
+    [
+      108.02,
+      339.35839999999996,
+      288.41888,
+      352.19684
+    ]
+  ],
+  "chunk_index": 388
+}

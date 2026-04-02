@@ -1,0 +1,30 @@
+{
+  "headings": [
+    "ii. Priority to withheld funds"
+  ],
+  "page_numbers": [
+    81
+  ],
+  "text": "- D. A contractor's assignee(s);\n- C. A trustee(s) (either a court-appointed trustee or a U.S. trustee, or both) in bankruptcy of a contractor, or a contractor's bankruptcy estate;\n- E. A contractor's successor(s); or",
+  "bboxes": [
+    [
+      108.599,
+      317.80396,
+      242.26878000000002,
+      331.26056
+    ],
+    [
+      108.599,
+      331.23396,
+      527.0961500000001,
+      358.14056
+    ],
+    [
+      108.599,
+      304.36396,
+      259.17278,
+      317.82056
+    ]
+  ],
+  "chunk_index": 833
+}
